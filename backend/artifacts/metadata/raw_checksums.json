@@ -1,0 +1,21 @@
+{
+  "context_train.csv": "7de98bf036a898941be6ea577f3ba88f663d7dcd61cf112a682b16c6eb28d2a6",
+  "context_validation.csv": "95eb0bcfc4c72ea68aca13755e018b7ee7e44da774e141209bcc6cc48b22cc92",
+  "DATASET_MANIFEST.json": "f31ccc61e9f7ce1f51344a58ecc5abfe516a658b97c30e309f1eca52ffc83b84",
+  "forecast_targets_train.csv": "9cca546b4964046fc767bbda29fddb516ceb971a492afe0f960316df7da021ea",
+  "forecast_targets_validation.csv": "d90ea7fcf08b7a728a26ffa74ebbf2f0344cfae1adb9673a8f180cf267c7c3db",
+  "incidents_train.csv": "5aedc9215bb83dde756f9d0ef9fc1cce9964b18f6d68428ad968fc3fbb8bb16e",
+  "incidents_validation.csv": "622a66cddfd4e991b521a826e490fa52480a8776dc0e559e593f5a08b241a2c4",
+  "network.csv": "f9bd234ac961b239cfb9475b9a6f3f2e6ceab96abd44ad3560adaab8b5dcdcd6",
+  "nodes.csv": "184291d71211d4e41c581303a4a5633ded02ee12f17953f8c4b64a1c6d24f9a1",
+  "od_demand_profiles.csv": "d7c1a17a0378223155e3071b5875a31ea25db4bc842ddd1dc69fb28a9aef5805",
+  "planning_candidates.csv": "83adfef07a8321d406db4a9f4a9b7c3738e8c92d4ab5837d045f993b3c8cae25",
+  "README.md": "5cdb3110e3c7173ef54c37963c274fb4dd9af9bf7889d6ef27dfcb0a3e2746f7",
+  "roadworks_train.csv": "7d19f6065cdc0affe6b48d3e5728ff8f523137eaf7ac9e145fc4af29189f02fc",
+  "roadworks_validation.csv": "d0c391768f60359db770111ff67b7d24e79b0f79a8a872d394ca108a9ca5a587",
+  "scenario_examples.csv": "8203e8e508f454d032fac46c2d267e57d11c8cff9cad13a1f3ae41a1a6ef0c1d",
+  "signal_plans.csv": "4df706a2954ce10dfa35ec626fc2203a0170ec7799c5ba4b9ac192673daf01b9",
+  "traffic_train.csv": "7a3db21b2267e4ae66b09e8de0f90fd4504fade9298d345d35836670ea49a830",
+  "traffic_validation.csv": "cd0598c05286efac2f253d74376826846cff4e6417e2b7f3b1fa8945ace9fcb0",
+  "turn_restrictions.csv": "15dc4468df4894aff083a8fe421bff2456a5871d3ec3d5cf9d62276fc7d9931f"
+}

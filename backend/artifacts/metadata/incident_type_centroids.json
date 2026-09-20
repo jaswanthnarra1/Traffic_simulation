@@ -1,0 +1,39 @@
+{
+  "features": [
+    "mean_speed_ratio_drop",
+    "mean_flow_ratio_change"
+  ],
+  "centroids": {
+    "accident_like": [
+      0.4142494797706604,
+      -0.321412056684494
+    ],
+    "demand_surge": [
+      0.39103835821151733,
+      -0.32399070262908936
+    ],
+    "lane_blockage": [
+      0.5548039674758911,
+      -0.4911800026893616
+    ],
+    "road_closure": [
+      0.457246869802475,
+      -0.34879910945892334
+    ],
+    "stalled_vehicle": [
+      0.4727694094181061,
+      -0.39789095520973206
+    ]
+  },
+  "pooled_std": [
+    0.1173396185040474,
+    0.14119474589824677
+  ],
+  "counts": {
+    "accident_like": 14,
+    "demand_surge": 4,
+    "lane_blockage": 15,
+    "road_closure": 4,
+    "stalled_vehicle": 12
+  }
+}

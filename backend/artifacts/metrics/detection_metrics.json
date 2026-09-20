@@ -1,0 +1,102 @@
+{
+  "detector": "drop_epicentre",
+  "threshold": 0.3413242804449659,
+  "positive_definition": "slot within [ceil5(start_time), end_time] of a labelled incident on that segment",
+  "threshold_selected_on": "incidents_train only",
+  "splits": {
+    "train": {
+      "slot_level": {
+        "precision": 0.7188264058679706,
+        "recall": 0.939297124600639,
+        "f1": 0.8144044321329639,
+        "true_positives": 294,
+        "false_positives": 115,
+        "false_negatives": 19,
+        "false_positive_slots_per_day": 7.666666666666667
+      },
+      "event_level": {
+        "incidents": 49,
+        "incidents_detected": 49,
+        "event_recall": 1.0,
+        "median_detection_delay_min": 3.0,
+        "detected_events": 62,
+        "events_not_matching_any_label": 12,
+        "unmatched_events_per_day": 0.8
+      },
+      "type_diagnosis": {
+        "evaluated_on_detected_incidents": 49,
+        "accuracy": 0.12244897959183673,
+        "unknown_rate": 0.7346938775510204,
+        "per_type": {
+          "accident_like": {
+            "n": 14,
+            "correct": 0
+          },
+          "demand_surge": {
+            "n": 4,
+            "correct": 1
+          },
+          "lane_blockage": {
+            "n": 15,
+            "correct": 5
+          },
+          "road_closure": {
+            "n": 4,
+            "correct": 0
+          },
+          "stalled_vehicle": {
+            "n": 12,
+            "correct": 0
+          }
+        },
+        "types_absent_from_this_split": [],
+        "chance_level_uniform_5_types": 0.2
+      }
+    },
+    "validation": {
+      "slot_level": {
+        "precision": 0.5614035087719298,
+        "recall": 0.9552238805970149,
+        "f1": 0.7071823204419888,
+        "true_positives": 64,
+        "false_positives": 50,
+        "false_negatives": 3,
+        "false_positive_slots_per_day": 12.5
+      },
+      "event_level": {
+        "incidents": 11,
+        "incidents_detected": 11,
+        "event_recall": 1.0,
+        "median_detection_delay_min": 2.0,
+        "detected_events": 17,
+        "events_not_matching_any_label": 6,
+        "unmatched_events_per_day": 1.5
+      },
+      "type_diagnosis": {
+        "evaluated_on_detected_incidents": 11,
+        "accuracy": 0.09090909090909091,
+        "unknown_rate": 0.8181818181818182,
+        "per_type": {
+          "accident_like": {
+            "n": 3,
+            "correct": 0
+          },
+          "lane_blockage": {
+            "n": 7,
+            "correct": 1
+          },
+          "stalled_vehicle": {
+            "n": 1,
+            "correct": 0
+          }
+        },
+        "types_absent_from_this_split": [
+          "demand_surge",
+          "road_closure"
+        ],
+        "chance_level_uniform_5_types": 0.2
+      }
+    }
+  },
+  "note": "Events not matching any label include (a) incident-shaped drops absent from the labels and (b) residual spillback. [INF] Training data contains ~1,000 abrupt local drops with no label, roadwork, rain or adjacent incident, so label-based precision is a lower bound."
+}

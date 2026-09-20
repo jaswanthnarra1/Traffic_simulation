@@ -1,0 +1,3494 @@
+{
+  "method": "peak/off-peak p99 throughput amplification, robust z <= -2.5",
+  "network_median_amplification": 1.3899,
+  "segments": [
+    {
+      "segment_id": "R0001",
+      "throughput_amplification": 1.3694,
+      "robust_z": -0.4,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0251,
+      "detected": false
+    },
+    {
+      "segment_id": "R0002",
+      "throughput_amplification": 1.3768,
+      "robust_z": -0.25,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0383,
+      "detected": false
+    },
+    {
+      "segment_id": "R0003",
+      "throughput_amplification": 1.402,
+      "robust_z": 0.23,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0386,
+      "detected": false
+    },
+    {
+      "segment_id": "R0004",
+      "throughput_amplification": 1.3943,
+      "robust_z": 0.08,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.016,
+      "detected": false
+    },
+    {
+      "segment_id": "R0005",
+      "throughput_amplification": 1.3682,
+      "robust_z": -0.42,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0186,
+      "detected": false
+    },
+    {
+      "segment_id": "R0006",
+      "throughput_amplification": 1.3282,
+      "robust_z": -1.19,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0229,
+      "detected": false
+    },
+    {
+      "segment_id": "R0007",
+      "throughput_amplification": 1.3817,
+      "robust_z": -0.16,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.037,
+      "detected": false
+    },
+    {
+      "segment_id": "R0008",
+      "throughput_amplification": 1.3853,
+      "robust_z": -0.09,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0229,
+      "detected": false
+    },
+    {
+      "segment_id": "R0009",
+      "throughput_amplification": 1.3795,
+      "robust_z": -0.2,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0674,
+      "detected": false
+    },
+    {
+      "segment_id": "R0010",
+      "throughput_amplification": 1.3462,
+      "robust_z": -0.84,
+      "recurrence_days_frac": 0.2,
+      "peak_mean_congestion": 0.0567,
+      "detected": false
+    },
+    {
+      "segment_id": "R0011",
+      "throughput_amplification": 1.3687,
+      "robust_z": -0.41,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1,
+      "detected": false
+    },
+    {
+      "segment_id": "R0012",
+      "throughput_amplification": 1.3884,
+      "robust_z": -0.03,
+      "recurrence_days_frac": 0.267,
+      "peak_mean_congestion": 0.113,
+      "detected": false
+    },
+    {
+      "segment_id": "R0013",
+      "throughput_amplification": 1.4116,
+      "robust_z": 0.42,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.039,
+      "detected": false
+    },
+    {
+      "segment_id": "R0014",
+      "throughput_amplification": 1.357,
+      "robust_z": -0.63,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.031,
+      "detected": false
+    },
+    {
+      "segment_id": "R0015",
+      "throughput_amplification": 1.3468,
+      "robust_z": -0.83,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0361,
+      "detected": false
+    },
+    {
+      "segment_id": "R0016",
+      "throughput_amplification": 1.3743,
+      "robust_z": -0.3,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0314,
+      "detected": false
+    },
+    {
+      "segment_id": "R0017",
+      "throughput_amplification": 1.3941,
+      "robust_z": 0.08,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0159,
+      "detected": false
+    },
+    {
+      "segment_id": "R0018",
+      "throughput_amplification": 1.3782,
+      "robust_z": -0.23,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0159,
+      "detected": false
+    },
+    {
+      "segment_id": "R0019",
+      "throughput_amplification": 1.3591,
+      "robust_z": -0.59,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0255,
+      "detected": false
+    },
+    {
+      "segment_id": "R0020",
+      "throughput_amplification": 1.3487,
+      "robust_z": -0.79,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0165,
+      "detected": false
+    },
+    {
+      "segment_id": "R0021",
+      "throughput_amplification": 1.4119,
+      "robust_z": 0.42,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0536,
+      "detected": false
+    },
+    {
+      "segment_id": "R0022",
+      "throughput_amplification": 1.3542,
+      "robust_z": -0.69,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0937,
+      "detected": false
+    },
+    {
+      "segment_id": "R0023",
+      "throughput_amplification": 1.4081,
+      "robust_z": 0.35,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1021,
+      "detected": false
+    },
+    {
+      "segment_id": "R0024",
+      "throughput_amplification": 1.4972,
+      "robust_z": 2.07,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0703,
+      "detected": false
+    },
+    {
+      "segment_id": "R0025",
+      "throughput_amplification": 1.3915,
+      "robust_z": 0.03,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0134,
+      "detected": false
+    },
+    {
+      "segment_id": "R0026",
+      "throughput_amplification": 1.419,
+      "robust_z": 0.56,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0314,
+      "detected": false
+    },
+    {
+      "segment_id": "R0027",
+      "throughput_amplification": 1.3568,
+      "robust_z": -0.64,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.027,
+      "detected": false
+    },
+    {
+      "segment_id": "R0028",
+      "throughput_amplification": 1.4165,
+      "robust_z": 0.51,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0163,
+      "detected": false
+    },
+    {
+      "segment_id": "R0029",
+      "throughput_amplification": 1.4169,
+      "robust_z": 0.52,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0309,
+      "detected": false
+    },
+    {
+      "segment_id": "R0030",
+      "throughput_amplification": 1.3779,
+      "robust_z": -0.23,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0264,
+      "detected": false
+    },
+    {
+      "segment_id": "R0031",
+      "throughput_amplification": 1.3853,
+      "robust_z": -0.09,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0313,
+      "detected": false
+    },
+    {
+      "segment_id": "R0032",
+      "throughput_amplification": 1.4202,
+      "robust_z": 0.59,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0222,
+      "detected": false
+    },
+    {
+      "segment_id": "R0033",
+      "throughput_amplification": 1.3561,
+      "robust_z": -0.65,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0721,
+      "detected": false
+    },
+    {
+      "segment_id": "R0034",
+      "throughput_amplification": 1.3618,
+      "robust_z": -0.54,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0654,
+      "detected": false
+    },
+    {
+      "segment_id": "R0035",
+      "throughput_amplification": 1.4207,
+      "robust_z": 0.6,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0567,
+      "detected": false
+    },
+    {
+      "segment_id": "R0036",
+      "throughput_amplification": 1.3561,
+      "robust_z": -0.65,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0578,
+      "detected": false
+    },
+    {
+      "segment_id": "R0037",
+      "throughput_amplification": 1.3485,
+      "robust_z": -0.8,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0291,
+      "detected": false
+    },
+    {
+      "segment_id": "R0038",
+      "throughput_amplification": 1.3569,
+      "robust_z": -0.64,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0406,
+      "detected": false
+    },
+    {
+      "segment_id": "R0039",
+      "throughput_amplification": 1.368,
+      "robust_z": -0.42,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0132,
+      "detected": false
+    },
+    {
+      "segment_id": "R0040",
+      "throughput_amplification": 1.3627,
+      "robust_z": -0.52,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0165,
+      "detected": false
+    },
+    {
+      "segment_id": "R0041",
+      "throughput_amplification": 1.4178,
+      "robust_z": 0.54,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0238,
+      "detected": false
+    },
+    {
+      "segment_id": "R0042",
+      "throughput_amplification": 1.427,
+      "robust_z": 0.72,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0313,
+      "detected": false
+    },
+    {
+      "segment_id": "R0043",
+      "throughput_amplification": 1.3856,
+      "robust_z": -0.08,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0193,
+      "detected": false
+    },
+    {
+      "segment_id": "R0044",
+      "throughput_amplification": 1.3874,
+      "robust_z": -0.05,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0304,
+      "detected": false
+    },
+    {
+      "segment_id": "R0045",
+      "throughput_amplification": 1.3722,
+      "robust_z": -0.34,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0285,
+      "detected": false
+    },
+    {
+      "segment_id": "R0046",
+      "throughput_amplification": 1.3529,
+      "robust_z": -0.72,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.038,
+      "detected": false
+    },
+    {
+      "segment_id": "R0047",
+      "throughput_amplification": 1.3747,
+      "robust_z": -0.29,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0359,
+      "detected": false
+    },
+    {
+      "segment_id": "R0048",
+      "throughput_amplification": 1.3903,
+      "robust_z": 0.01,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0228,
+      "detected": false
+    },
+    {
+      "segment_id": "R0049",
+      "throughput_amplification": 1.4116,
+      "robust_z": 0.42,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0159,
+      "detected": false
+    },
+    {
+      "segment_id": "R0050",
+      "throughput_amplification": 1.376,
+      "robust_z": -0.27,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.038,
+      "detected": false
+    },
+    {
+      "segment_id": "R0051",
+      "throughput_amplification": 1.4152,
+      "robust_z": 0.49,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0209,
+      "detected": false
+    },
+    {
+      "segment_id": "R0052",
+      "throughput_amplification": 1.4004,
+      "robust_z": 0.2,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0333,
+      "detected": false
+    },
+    {
+      "segment_id": "R0053",
+      "throughput_amplification": 1.3801,
+      "robust_z": -0.19,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0299,
+      "detected": false
+    },
+    {
+      "segment_id": "R0054",
+      "throughput_amplification": 1.3757,
+      "robust_z": -0.27,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0261,
+      "detected": false
+    },
+    {
+      "segment_id": "R0055",
+      "throughput_amplification": 1.4149,
+      "robust_z": 0.48,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0552,
+      "detected": false
+    },
+    {
+      "segment_id": "R0056",
+      "throughput_amplification": 1.3511,
+      "robust_z": -0.75,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0626,
+      "detected": false
+    },
+    {
+      "segment_id": "R0057",
+      "throughput_amplification": 1.3535,
+      "robust_z": -0.7,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0617,
+      "detected": false
+    },
+    {
+      "segment_id": "R0058",
+      "throughput_amplification": 1.4251,
+      "robust_z": 0.68,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1371,
+      "detected": false
+    },
+    {
+      "segment_id": "R0059",
+      "throughput_amplification": 1.3589,
+      "robust_z": -0.6,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0201,
+      "detected": false
+    },
+    {
+      "segment_id": "R0060",
+      "throughput_amplification": 1.3458,
+      "robust_z": -0.85,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.023,
+      "detected": false
+    },
+    {
+      "segment_id": "R0061",
+      "throughput_amplification": 1.3566,
+      "robust_z": -0.64,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0222,
+      "detected": false
+    },
+    {
+      "segment_id": "R0062",
+      "throughput_amplification": 1.3748,
+      "robust_z": -0.29,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0357,
+      "detected": false
+    },
+    {
+      "segment_id": "R0063",
+      "throughput_amplification": 1.4112,
+      "robust_z": 0.41,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0314,
+      "detected": false
+    },
+    {
+      "segment_id": "R0064",
+      "throughput_amplification": 1.4661,
+      "robust_z": 1.47,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0293,
+      "detected": false
+    },
+    {
+      "segment_id": "R0065",
+      "throughput_amplification": 1.3898,
+      "robust_z": -0.0,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0219,
+      "detected": false
+    },
+    {
+      "segment_id": "R0066",
+      "throughput_amplification": 1.4576,
+      "robust_z": 1.31,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0348,
+      "detected": false
+    },
+    {
+      "segment_id": "R0067",
+      "throughput_amplification": 1.5319,
+      "robust_z": 2.74,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0625,
+      "detected": false
+    },
+    {
+      "segment_id": "R0068",
+      "throughput_amplification": 1.4755,
+      "robust_z": 1.65,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.1238,
+      "detected": false
+    },
+    {
+      "segment_id": "R0069",
+      "throughput_amplification": 1.5071,
+      "robust_z": 2.26,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1163,
+      "detected": false
+    },
+    {
+      "segment_id": "R0070",
+      "throughput_amplification": 1.5231,
+      "robust_z": 2.57,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1011,
+      "detected": false
+    },
+    {
+      "segment_id": "R0071",
+      "throughput_amplification": 1.4934,
+      "robust_z": 2.0,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0298,
+      "detected": false
+    },
+    {
+      "segment_id": "R0072",
+      "throughput_amplification": 1.3804,
+      "robust_z": -0.18,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0173,
+      "detected": false
+    },
+    {
+      "segment_id": "R0073",
+      "throughput_amplification": 1.5662,
+      "robust_z": 3.41,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0216,
+      "detected": false
+    },
+    {
+      "segment_id": "R0074",
+      "throughput_amplification": 1.4391,
+      "robust_z": 0.95,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0189,
+      "detected": false
+    },
+    {
+      "segment_id": "R0075",
+      "throughput_amplification": 1.383,
+      "robust_z": -0.13,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0295,
+      "detected": false
+    },
+    {
+      "segment_id": "R0076",
+      "throughput_amplification": 1.3328,
+      "robust_z": -1.1,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0156,
+      "detected": false
+    },
+    {
+      "segment_id": "R0077",
+      "throughput_amplification": 1.3732,
+      "robust_z": -0.32,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.022,
+      "detected": false
+    },
+    {
+      "segment_id": "R0078",
+      "throughput_amplification": 1.5141,
+      "robust_z": 2.4,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0201,
+      "detected": false
+    },
+    {
+      "segment_id": "R0079",
+      "throughput_amplification": 1.3352,
+      "robust_z": -1.06,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.1018,
+      "detected": false
+    },
+    {
+      "segment_id": "R0080",
+      "throughput_amplification": 1.4072,
+      "robust_z": 0.33,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.12,
+      "detected": false
+    },
+    {
+      "segment_id": "R0081",
+      "throughput_amplification": 1.4037,
+      "robust_z": 0.27,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0993,
+      "detected": false
+    },
+    {
+      "segment_id": "R0082",
+      "throughput_amplification": 1.373,
+      "robust_z": -0.33,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1115,
+      "detected": false
+    },
+    {
+      "segment_id": "R0083",
+      "throughput_amplification": 1.3847,
+      "robust_z": -0.1,
+      "recurrence_days_frac": 0.2,
+      "peak_mean_congestion": 0.0356,
+      "detected": false
+    },
+    {
+      "segment_id": "R0084",
+      "throughput_amplification": 1.35,
+      "robust_z": -0.77,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0397,
+      "detected": false
+    },
+    {
+      "segment_id": "R0085",
+      "throughput_amplification": 1.3446,
+      "robust_z": -0.88,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0242,
+      "detected": false
+    },
+    {
+      "segment_id": "R0086",
+      "throughput_amplification": 1.3784,
+      "robust_z": -0.22,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0137,
+      "detected": false
+    },
+    {
+      "segment_id": "R0087",
+      "throughput_amplification": 1.4223,
+      "robust_z": 0.63,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0199,
+      "detected": false
+    },
+    {
+      "segment_id": "R0088",
+      "throughput_amplification": 1.3804,
+      "robust_z": -0.18,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0425,
+      "detected": false
+    },
+    {
+      "segment_id": "R0089",
+      "throughput_amplification": 1.3579,
+      "robust_z": -0.62,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0243,
+      "detected": false
+    },
+    {
+      "segment_id": "R0090",
+      "throughput_amplification": 1.3824,
+      "robust_z": -0.14,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0224,
+      "detected": false
+    },
+    {
+      "segment_id": "R0091",
+      "throughput_amplification": 1.3906,
+      "robust_z": 0.01,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0248,
+      "detected": false
+    },
+    {
+      "segment_id": "R0092",
+      "throughput_amplification": 1.38,
+      "robust_z": -0.19,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0272,
+      "detected": false
+    },
+    {
+      "segment_id": "R0093",
+      "throughput_amplification": 1.371,
+      "robust_z": -0.37,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0627,
+      "detected": false
+    },
+    {
+      "segment_id": "R0094",
+      "throughput_amplification": 1.3492,
+      "robust_z": -0.79,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0995,
+      "detected": false
+    },
+    {
+      "segment_id": "R0095",
+      "throughput_amplification": 1.3421,
+      "robust_z": -0.92,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0626,
+      "detected": false
+    },
+    {
+      "segment_id": "R0096",
+      "throughput_amplification": 1.4026,
+      "robust_z": 0.25,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1304,
+      "detected": false
+    },
+    {
+      "segment_id": "R0097",
+      "throughput_amplification": 1.3737,
+      "robust_z": -0.31,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0481,
+      "detected": false
+    },
+    {
+      "segment_id": "R0098",
+      "throughput_amplification": 1.3599,
+      "robust_z": -0.58,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1243,
+      "detected": false
+    },
+    {
+      "segment_id": "R0099",
+      "throughput_amplification": 1.3576,
+      "robust_z": -0.62,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0924,
+      "detected": false
+    },
+    {
+      "segment_id": "R0100",
+      "throughput_amplification": 1.3814,
+      "robust_z": -0.16,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1182,
+      "detected": false
+    },
+    {
+      "segment_id": "R0101",
+      "throughput_amplification": 1.3823,
+      "robust_z": -0.15,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0885,
+      "detected": false
+    },
+    {
+      "segment_id": "R0102",
+      "throughput_amplification": 1.3707,
+      "robust_z": -0.37,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1283,
+      "detected": false
+    },
+    {
+      "segment_id": "R0103",
+      "throughput_amplification": 1.3889,
+      "robust_z": -0.02,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0656,
+      "detected": false
+    },
+    {
+      "segment_id": "R0104",
+      "throughput_amplification": 1.3682,
+      "robust_z": -0.42,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1056,
+      "detected": false
+    },
+    {
+      "segment_id": "R0105",
+      "throughput_amplification": 1.4017,
+      "robust_z": 0.23,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0615,
+      "detected": false
+    },
+    {
+      "segment_id": "R0106",
+      "throughput_amplification": 1.4796,
+      "robust_z": 1.73,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0819,
+      "detected": false
+    },
+    {
+      "segment_id": "R0107",
+      "throughput_amplification": 1.3418,
+      "robust_z": -0.93,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0656,
+      "detected": false
+    },
+    {
+      "segment_id": "R0108",
+      "throughput_amplification": 1.4462,
+      "robust_z": 1.09,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1342,
+      "detected": false
+    },
+    {
+      "segment_id": "R0109",
+      "throughput_amplification": 1.4977,
+      "robust_z": 2.08,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1301,
+      "detected": false
+    },
+    {
+      "segment_id": "R0110",
+      "throughput_amplification": 1.4308,
+      "robust_z": 0.79,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0818,
+      "detected": false
+    },
+    {
+      "segment_id": "R0111",
+      "throughput_amplification": 1.4926,
+      "robust_z": 1.98,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0694,
+      "detected": false
+    },
+    {
+      "segment_id": "R0112",
+      "throughput_amplification": 1.565,
+      "robust_z": 3.38,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0833,
+      "detected": false
+    },
+    {
+      "segment_id": "R0113",
+      "throughput_amplification": 1.5396,
+      "robust_z": 2.89,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1292,
+      "detected": false
+    },
+    {
+      "segment_id": "R0114",
+      "throughput_amplification": 1.4132,
+      "robust_z": 0.45,
+      "recurrence_days_frac": 0.267,
+      "peak_mean_congestion": 0.1271,
+      "detected": false
+    },
+    {
+      "segment_id": "R0115",
+      "throughput_amplification": 1.4939,
+      "robust_z": 2.01,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1161,
+      "detected": false
+    },
+    {
+      "segment_id": "R0116",
+      "throughput_amplification": 1.3053,
+      "robust_z": -1.63,
+      "recurrence_days_frac": 0.8,
+      "peak_mean_congestion": 0.0789,
+      "detected": false
+    },
+    {
+      "segment_id": "R0117",
+      "throughput_amplification": 1.4479,
+      "robust_z": 1.12,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0865,
+      "detected": false
+    },
+    {
+      "segment_id": "R0118",
+      "throughput_amplification": 1.5504,
+      "robust_z": 3.1,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0818,
+      "detected": false
+    },
+    {
+      "segment_id": "R0119",
+      "throughput_amplification": 1.4474,
+      "robust_z": 1.11,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1413,
+      "detected": false
+    },
+    {
+      "segment_id": "R0120",
+      "throughput_amplification": 1.3021,
+      "robust_z": -1.7,
+      "recurrence_days_frac": 0.867,
+      "peak_mean_congestion": 0.0416,
+      "detected": false
+    },
+    {
+      "segment_id": "R0121",
+      "throughput_amplification": 1.5053,
+      "robust_z": 2.23,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0779,
+      "detected": false
+    },
+    {
+      "segment_id": "R0122",
+      "throughput_amplification": 1.358,
+      "robust_z": -0.62,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0595,
+      "detected": false
+    },
+    {
+      "segment_id": "R0123",
+      "throughput_amplification": 1.4262,
+      "robust_z": 0.7,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1436,
+      "detected": false
+    },
+    {
+      "segment_id": "R0124",
+      "throughput_amplification": 1.4979,
+      "robust_z": 2.09,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1324,
+      "detected": false
+    },
+    {
+      "segment_id": "R0125",
+      "throughput_amplification": 1.3449,
+      "robust_z": -0.87,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1102,
+      "detected": false
+    },
+    {
+      "segment_id": "R0126",
+      "throughput_amplification": 1.3962,
+      "robust_z": 0.12,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0789,
+      "detected": false
+    },
+    {
+      "segment_id": "R0127",
+      "throughput_amplification": 1.342,
+      "robust_z": -0.92,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0866,
+      "detected": false
+    },
+    {
+      "segment_id": "R0128",
+      "throughput_amplification": 1.4631,
+      "robust_z": 1.41,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0877,
+      "detected": false
+    },
+    {
+      "segment_id": "R0129",
+      "throughput_amplification": 1.3712,
+      "robust_z": -0.36,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0702,
+      "detected": false
+    },
+    {
+      "segment_id": "R0130",
+      "throughput_amplification": 1.3593,
+      "robust_z": -0.59,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.097,
+      "detected": false
+    },
+    {
+      "segment_id": "R0131",
+      "throughput_amplification": 1.4062,
+      "robust_z": 0.31,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0687,
+      "detected": false
+    },
+    {
+      "segment_id": "R0132",
+      "throughput_amplification": 1.3879,
+      "robust_z": -0.04,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0512,
+      "detected": false
+    },
+    {
+      "segment_id": "R0133",
+      "throughput_amplification": 1.3527,
+      "robust_z": -0.72,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1274,
+      "detected": false
+    },
+    {
+      "segment_id": "R0134",
+      "throughput_amplification": 1.3622,
+      "robust_z": -0.54,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.076,
+      "detected": false
+    },
+    {
+      "segment_id": "R0135",
+      "throughput_amplification": 1.3583,
+      "robust_z": -0.61,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0841,
+      "detected": false
+    },
+    {
+      "segment_id": "R0136",
+      "throughput_amplification": 1.4056,
+      "robust_z": 0.3,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0824,
+      "detected": false
+    },
+    {
+      "segment_id": "R0137",
+      "throughput_amplification": 1.4187,
+      "robust_z": 0.56,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1374,
+      "detected": false
+    },
+    {
+      "segment_id": "R0138",
+      "throughput_amplification": 1.3668,
+      "robust_z": -0.45,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0823,
+      "detected": false
+    },
+    {
+      "segment_id": "R0139",
+      "throughput_amplification": 1.363,
+      "robust_z": -0.52,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0196,
+      "detected": false
+    },
+    {
+      "segment_id": "R0140",
+      "throughput_amplification": 1.4153,
+      "robust_z": 0.49,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0217,
+      "detected": false
+    },
+    {
+      "segment_id": "R0141",
+      "throughput_amplification": 1.3465,
+      "robust_z": -0.84,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0245,
+      "detected": false
+    },
+    {
+      "segment_id": "R0142",
+      "throughput_amplification": 1.3684,
+      "robust_z": -0.41,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0384,
+      "detected": false
+    },
+    {
+      "segment_id": "R0143",
+      "throughput_amplification": 1.3906,
+      "robust_z": 0.01,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0167,
+      "detected": false
+    },
+    {
+      "segment_id": "R0144",
+      "throughput_amplification": 1.4372,
+      "robust_z": 0.91,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.033,
+      "detected": false
+    },
+    {
+      "segment_id": "R0145",
+      "throughput_amplification": 1.3355,
+      "robust_z": -1.05,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0316,
+      "detected": false
+    },
+    {
+      "segment_id": "R0146",
+      "throughput_amplification": 1.3445,
+      "robust_z": -0.88,
+      "recurrence_days_frac": 0.2,
+      "peak_mean_congestion": 0.0306,
+      "detected": false
+    },
+    {
+      "segment_id": "R0147",
+      "throughput_amplification": 1.3798,
+      "robust_z": -0.19,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0683,
+      "detected": false
+    },
+    {
+      "segment_id": "R0148",
+      "throughput_amplification": 1.4177,
+      "robust_z": 0.54,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.1012,
+      "detected": false
+    },
+    {
+      "segment_id": "R0149",
+      "throughput_amplification": 1.3766,
+      "robust_z": -0.26,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0782,
+      "detected": false
+    },
+    {
+      "segment_id": "R0150",
+      "throughput_amplification": 1.4348,
+      "robust_z": 0.87,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0948,
+      "detected": false
+    },
+    {
+      "segment_id": "R0151",
+      "throughput_amplification": 1.5061,
+      "robust_z": 2.24,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0262,
+      "detected": false
+    },
+    {
+      "segment_id": "R0152",
+      "throughput_amplification": 1.5252,
+      "robust_z": 2.61,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0252,
+      "detected": false
+    },
+    {
+      "segment_id": "R0153",
+      "throughput_amplification": 1.4747,
+      "robust_z": 1.64,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0243,
+      "detected": false
+    },
+    {
+      "segment_id": "R0154",
+      "throughput_amplification": 1.5295,
+      "robust_z": 2.7,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0172,
+      "detected": false
+    },
+    {
+      "segment_id": "R0155",
+      "throughput_amplification": 1.4596,
+      "robust_z": 1.35,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0228,
+      "detected": false
+    },
+    {
+      "segment_id": "R0156",
+      "throughput_amplification": 1.489,
+      "robust_z": 1.91,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0315,
+      "detected": false
+    },
+    {
+      "segment_id": "R0157",
+      "throughput_amplification": 1.4904,
+      "robust_z": 1.94,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0155,
+      "detected": false
+    },
+    {
+      "segment_id": "R0158",
+      "throughput_amplification": 1.4992,
+      "robust_z": 2.11,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0141,
+      "detected": false
+    },
+    {
+      "segment_id": "R0159",
+      "throughput_amplification": 1.3676,
+      "robust_z": -0.43,
+      "recurrence_days_frac": 0.667,
+      "peak_mean_congestion": 0.0605,
+      "detected": false
+    },
+    {
+      "segment_id": "R0160",
+      "throughput_amplification": 1.3102,
+      "robust_z": -1.54,
+      "recurrence_days_frac": 0.533,
+      "peak_mean_congestion": 0.0648,
+      "detected": false
+    },
+    {
+      "segment_id": "R0161",
+      "throughput_amplification": 1.2572,
+      "robust_z": -2.56,
+      "recurrence_days_frac": 0.733,
+      "peak_mean_congestion": 0.0367,
+      "detected": true
+    },
+    {
+      "segment_id": "R0162",
+      "throughput_amplification": 1.2847,
+      "robust_z": -2.03,
+      "recurrence_days_frac": 0.733,
+      "peak_mean_congestion": 0.0584,
+      "detected": false
+    },
+    {
+      "segment_id": "R0163",
+      "throughput_amplification": 1.4763,
+      "robust_z": 1.67,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0185,
+      "detected": false
+    },
+    {
+      "segment_id": "R0164",
+      "throughput_amplification": 1.5027,
+      "robust_z": 2.18,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0195,
+      "detected": false
+    },
+    {
+      "segment_id": "R0165",
+      "throughput_amplification": 1.4722,
+      "robust_z": 1.59,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0205,
+      "detected": false
+    },
+    {
+      "segment_id": "R0166",
+      "throughput_amplification": 1.4802,
+      "robust_z": 1.74,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.03,
+      "detected": false
+    },
+    {
+      "segment_id": "R0167",
+      "throughput_amplification": 1.4382,
+      "robust_z": 0.93,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0196,
+      "detected": false
+    },
+    {
+      "segment_id": "R0168",
+      "throughput_amplification": 1.5697,
+      "robust_z": 3.47,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0348,
+      "detected": false
+    },
+    {
+      "segment_id": "R0169",
+      "throughput_amplification": 1.4797,
+      "robust_z": 1.73,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0192,
+      "detected": false
+    },
+    {
+      "segment_id": "R0170",
+      "throughput_amplification": 1.4605,
+      "robust_z": 1.36,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0396,
+      "detected": false
+    },
+    {
+      "segment_id": "R0171",
+      "throughput_amplification": 1.416,
+      "robust_z": 0.5,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.079,
+      "detected": false
+    },
+    {
+      "segment_id": "R0172",
+      "throughput_amplification": 1.384,
+      "robust_z": -0.11,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1368,
+      "detected": false
+    },
+    {
+      "segment_id": "R0173",
+      "throughput_amplification": 1.4954,
+      "robust_z": 2.04,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0971,
+      "detected": false
+    },
+    {
+      "segment_id": "R0174",
+      "throughput_amplification": 1.4841,
+      "robust_z": 1.82,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0964,
+      "detected": false
+    },
+    {
+      "segment_id": "R0175",
+      "throughput_amplification": 1.3896,
+      "robust_z": -0.0,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0276,
+      "detected": false
+    },
+    {
+      "segment_id": "R0176",
+      "throughput_amplification": 1.3892,
+      "robust_z": -0.01,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0175,
+      "detected": false
+    },
+    {
+      "segment_id": "R0177",
+      "throughput_amplification": 1.362,
+      "robust_z": -0.54,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0169,
+      "detected": false
+    },
+    {
+      "segment_id": "R0178",
+      "throughput_amplification": 1.4948,
+      "robust_z": 2.03,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0174,
+      "detected": false
+    },
+    {
+      "segment_id": "R0179",
+      "throughput_amplification": 1.3425,
+      "robust_z": -0.92,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0304,
+      "detected": false
+    },
+    {
+      "segment_id": "R0180",
+      "throughput_amplification": 1.3981,
+      "robust_z": 0.16,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0321,
+      "detected": false
+    },
+    {
+      "segment_id": "R0181",
+      "throughput_amplification": 1.4248,
+      "robust_z": 0.67,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0335,
+      "detected": false
+    },
+    {
+      "segment_id": "R0182",
+      "throughput_amplification": 1.3463,
+      "robust_z": -0.84,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0302,
+      "detected": false
+    },
+    {
+      "segment_id": "R0183",
+      "throughput_amplification": 1.3821,
+      "robust_z": -0.15,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0341,
+      "detected": false
+    },
+    {
+      "segment_id": "R0184",
+      "throughput_amplification": 1.3364,
+      "robust_z": -1.03,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0205,
+      "detected": false
+    },
+    {
+      "segment_id": "R0185",
+      "throughput_amplification": 1.4131,
+      "robust_z": 0.45,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0251,
+      "detected": false
+    },
+    {
+      "segment_id": "R0186",
+      "throughput_amplification": 1.3199,
+      "robust_z": -1.35,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0264,
+      "detected": false
+    },
+    {
+      "segment_id": "R0187",
+      "throughput_amplification": 1.3599,
+      "robust_z": -0.58,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0169,
+      "detected": false
+    },
+    {
+      "segment_id": "R0188",
+      "throughput_amplification": 1.3549,
+      "robust_z": -0.68,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0276,
+      "detected": false
+    },
+    {
+      "segment_id": "R0189",
+      "throughput_amplification": 1.4169,
+      "robust_z": 0.52,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0293,
+      "detected": false
+    },
+    {
+      "segment_id": "R0190",
+      "throughput_amplification": 1.4189,
+      "robust_z": 0.56,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0325,
+      "detected": false
+    },
+    {
+      "segment_id": "R0191",
+      "throughput_amplification": 1.3623,
+      "robust_z": -0.53,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0153,
+      "detected": false
+    },
+    {
+      "segment_id": "R0192",
+      "throughput_amplification": 1.3741,
+      "robust_z": -0.3,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0216,
+      "detected": false
+    },
+    {
+      "segment_id": "R0193",
+      "throughput_amplification": 1.4627,
+      "robust_z": 1.41,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1116,
+      "detected": false
+    },
+    {
+      "segment_id": "R0194",
+      "throughput_amplification": 1.5087,
+      "robust_z": 2.29,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0835,
+      "detected": false
+    },
+    {
+      "segment_id": "R0195",
+      "throughput_amplification": 1.4931,
+      "robust_z": 1.99,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1353,
+      "detected": false
+    },
+    {
+      "segment_id": "R0196",
+      "throughput_amplification": 1.5008,
+      "robust_z": 2.14,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0698,
+      "detected": false
+    },
+    {
+      "segment_id": "R0197",
+      "throughput_amplification": 1.5242,
+      "robust_z": 2.59,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0171,
+      "detected": false
+    },
+    {
+      "segment_id": "R0198",
+      "throughput_amplification": 1.527,
+      "robust_z": 2.65,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0243,
+      "detected": false
+    },
+    {
+      "segment_id": "R0199",
+      "throughput_amplification": 1.4715,
+      "robust_z": 1.58,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0171,
+      "detected": false
+    },
+    {
+      "segment_id": "R0200",
+      "throughput_amplification": 1.4622,
+      "robust_z": 1.4,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0272,
+      "detected": false
+    },
+    {
+      "segment_id": "R0201",
+      "throughput_amplification": 1.4896,
+      "robust_z": 1.92,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0269,
+      "detected": false
+    },
+    {
+      "segment_id": "R0202",
+      "throughput_amplification": 1.4992,
+      "robust_z": 2.11,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0219,
+      "detected": false
+    },
+    {
+      "segment_id": "R0203",
+      "throughput_amplification": 1.5066,
+      "robust_z": 2.25,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0373,
+      "detected": false
+    },
+    {
+      "segment_id": "R0204",
+      "throughput_amplification": 1.4987,
+      "robust_z": 2.1,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0197,
+      "detected": false
+    },
+    {
+      "segment_id": "R0205",
+      "throughput_amplification": 1.28,
+      "robust_z": -2.12,
+      "recurrence_days_frac": 0.467,
+      "peak_mean_congestion": 0.0453,
+      "detected": false
+    },
+    {
+      "segment_id": "R0206",
+      "throughput_amplification": 1.2507,
+      "robust_z": -2.69,
+      "recurrence_days_frac": 0.8,
+      "peak_mean_congestion": 0.1036,
+      "detected": true
+    },
+    {
+      "segment_id": "R0207",
+      "throughput_amplification": 1.3036,
+      "robust_z": -1.67,
+      "recurrence_days_frac": 0.667,
+      "peak_mean_congestion": 0.0453,
+      "detected": false
+    },
+    {
+      "segment_id": "R0208",
+      "throughput_amplification": 1.2942,
+      "robust_z": -1.85,
+      "recurrence_days_frac": 0.667,
+      "peak_mean_congestion": 0.0531,
+      "detected": false
+    },
+    {
+      "segment_id": "R0209",
+      "throughput_amplification": 1.5316,
+      "robust_z": 2.74,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0386,
+      "detected": false
+    },
+    {
+      "segment_id": "R0210",
+      "throughput_amplification": 1.5093,
+      "robust_z": 2.31,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0371,
+      "detected": false
+    },
+    {
+      "segment_id": "R0211",
+      "throughput_amplification": 1.5014,
+      "robust_z": 2.15,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0214,
+      "detected": false
+    },
+    {
+      "segment_id": "R0212",
+      "throughput_amplification": 1.4552,
+      "robust_z": 1.26,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0197,
+      "detected": false
+    },
+    {
+      "segment_id": "R0213",
+      "throughput_amplification": 1.5094,
+      "robust_z": 2.31,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0169,
+      "detected": false
+    },
+    {
+      "segment_id": "R0214",
+      "throughput_amplification": 1.4996,
+      "robust_z": 2.12,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0288,
+      "detected": false
+    },
+    {
+      "segment_id": "R0215",
+      "throughput_amplification": 1.5049,
+      "robust_z": 2.22,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0143,
+      "detected": false
+    },
+    {
+      "segment_id": "R0216",
+      "throughput_amplification": 1.494,
+      "robust_z": 2.01,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0237,
+      "detected": false
+    },
+    {
+      "segment_id": "R0217",
+      "throughput_amplification": 1.49,
+      "robust_z": 1.93,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0546,
+      "detected": false
+    },
+    {
+      "segment_id": "R0218",
+      "throughput_amplification": 1.4963,
+      "robust_z": 2.05,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1215,
+      "detected": false
+    },
+    {
+      "segment_id": "R0219",
+      "throughput_amplification": 1.5007,
+      "robust_z": 2.14,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0663,
+      "detected": false
+    },
+    {
+      "segment_id": "R0220",
+      "throughput_amplification": 1.5538,
+      "robust_z": 3.17,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0943,
+      "detected": false
+    },
+    {
+      "segment_id": "R0221",
+      "throughput_amplification": 1.4687,
+      "robust_z": 1.52,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0252,
+      "detected": false
+    },
+    {
+      "segment_id": "R0222",
+      "throughput_amplification": 1.3536,
+      "robust_z": -0.7,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.022,
+      "detected": false
+    },
+    {
+      "segment_id": "R0223",
+      "throughput_amplification": 1.477,
+      "robust_z": 1.68,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0136,
+      "detected": false
+    },
+    {
+      "segment_id": "R0224",
+      "throughput_amplification": 1.5331,
+      "robust_z": 2.77,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0318,
+      "detected": false
+    },
+    {
+      "segment_id": "R0225",
+      "throughput_amplification": 1.3873,
+      "robust_z": -0.05,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0386,
+      "detected": false
+    },
+    {
+      "segment_id": "R0226",
+      "throughput_amplification": 1.3543,
+      "robust_z": -0.69,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0194,
+      "detected": false
+    },
+    {
+      "segment_id": "R0227",
+      "throughput_amplification": 1.3352,
+      "robust_z": -1.06,
+      "recurrence_days_frac": 0.2,
+      "peak_mean_congestion": 0.0197,
+      "detected": false
+    },
+    {
+      "segment_id": "R0228",
+      "throughput_amplification": 1.3783,
+      "robust_z": -0.22,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0371,
+      "detected": false
+    },
+    {
+      "segment_id": "R0229",
+      "throughput_amplification": 1.3792,
+      "robust_z": -0.21,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0313,
+      "detected": false
+    },
+    {
+      "segment_id": "R0230",
+      "throughput_amplification": 1.3779,
+      "robust_z": -0.23,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0326,
+      "detected": false
+    },
+    {
+      "segment_id": "R0231",
+      "throughput_amplification": 1.339,
+      "robust_z": -0.98,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0209,
+      "detected": false
+    },
+    {
+      "segment_id": "R0232",
+      "throughput_amplification": 1.3788,
+      "robust_z": -0.21,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0191,
+      "detected": false
+    },
+    {
+      "segment_id": "R0233",
+      "throughput_amplification": 1.4239,
+      "robust_z": 0.66,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0133,
+      "detected": false
+    },
+    {
+      "segment_id": "R0234",
+      "throughput_amplification": 1.3952,
+      "robust_z": 0.1,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0156,
+      "detected": false
+    },
+    {
+      "segment_id": "R0235",
+      "throughput_amplification": 1.3739,
+      "robust_z": -0.31,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0184,
+      "detected": false
+    },
+    {
+      "segment_id": "R0236",
+      "throughput_amplification": 1.524,
+      "robust_z": 2.59,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0175,
+      "detected": false
+    },
+    {
+      "segment_id": "R0237",
+      "throughput_amplification": 1.3657,
+      "robust_z": -0.47,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0136,
+      "detected": false
+    },
+    {
+      "segment_id": "R0238",
+      "throughput_amplification": 1.3497,
+      "robust_z": -0.78,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0275,
+      "detected": false
+    },
+    {
+      "segment_id": "R0239",
+      "throughput_amplification": 1.4652,
+      "robust_z": 1.45,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1344,
+      "detected": false
+    },
+    {
+      "segment_id": "R0240",
+      "throughput_amplification": 1.5492,
+      "robust_z": 3.08,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0761,
+      "detected": false
+    },
+    {
+      "segment_id": "R0241",
+      "throughput_amplification": 1.4923,
+      "robust_z": 1.98,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1134,
+      "detected": false
+    },
+    {
+      "segment_id": "R0242",
+      "throughput_amplification": 1.3233,
+      "robust_z": -1.29,
+      "recurrence_days_frac": 0.2,
+      "peak_mean_congestion": 0.0574,
+      "detected": false
+    },
+    {
+      "segment_id": "R0243",
+      "throughput_amplification": 1.4821,
+      "robust_z": 1.78,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0321,
+      "detected": false
+    },
+    {
+      "segment_id": "R0244",
+      "throughput_amplification": 1.4909,
+      "robust_z": 1.95,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0197,
+      "detected": false
+    },
+    {
+      "segment_id": "R0245",
+      "throughput_amplification": 1.4718,
+      "robust_z": 1.58,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0302,
+      "detected": false
+    },
+    {
+      "segment_id": "R0246",
+      "throughput_amplification": 1.5003,
+      "robust_z": 2.13,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0203,
+      "detected": false
+    },
+    {
+      "segment_id": "R0247",
+      "throughput_amplification": 1.453,
+      "robust_z": 1.22,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0152,
+      "detected": false
+    },
+    {
+      "segment_id": "R0248",
+      "throughput_amplification": 1.4655,
+      "robust_z": 1.46,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.021,
+      "detected": false
+    },
+    {
+      "segment_id": "R0249",
+      "throughput_amplification": 1.4731,
+      "robust_z": 1.61,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0137,
+      "detected": false
+    },
+    {
+      "segment_id": "R0250",
+      "throughput_amplification": 1.4461,
+      "robust_z": 1.09,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0373,
+      "detected": false
+    },
+    {
+      "segment_id": "R0251",
+      "throughput_amplification": 1.2912,
+      "robust_z": -1.91,
+      "recurrence_days_frac": 0.6,
+      "peak_mean_congestion": 0.0515,
+      "detected": false
+    },
+    {
+      "segment_id": "R0252",
+      "throughput_amplification": 1.3625,
+      "robust_z": -0.53,
+      "recurrence_days_frac": 0.733,
+      "peak_mean_congestion": 0.1075,
+      "detected": false
+    },
+    {
+      "segment_id": "R0253",
+      "throughput_amplification": 1.2749,
+      "robust_z": -2.22,
+      "recurrence_days_frac": 0.667,
+      "peak_mean_congestion": 0.0445,
+      "detected": false
+    },
+    {
+      "segment_id": "R0254",
+      "throughput_amplification": 1.3305,
+      "robust_z": -1.15,
+      "recurrence_days_frac": 0.6,
+      "peak_mean_congestion": 0.1105,
+      "detected": false
+    },
+    {
+      "segment_id": "R0255",
+      "throughput_amplification": 1.5381,
+      "robust_z": 2.86,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0178,
+      "detected": false
+    },
+    {
+      "segment_id": "R0256",
+      "throughput_amplification": 1.4832,
+      "robust_z": 1.8,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.015,
+      "detected": false
+    },
+    {
+      "segment_id": "R0257",
+      "throughput_amplification": 1.4855,
+      "robust_z": 1.85,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0291,
+      "detected": false
+    },
+    {
+      "segment_id": "R0258",
+      "throughput_amplification": 1.5338,
+      "robust_z": 2.78,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0136,
+      "detected": false
+    },
+    {
+      "segment_id": "R0259",
+      "throughput_amplification": 1.4657,
+      "robust_z": 1.46,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0321,
+      "detected": false
+    },
+    {
+      "segment_id": "R0260",
+      "throughput_amplification": 1.4439,
+      "robust_z": 1.04,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0318,
+      "detected": false
+    },
+    {
+      "segment_id": "R0261",
+      "throughput_amplification": 1.4695,
+      "robust_z": 1.54,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0233,
+      "detected": false
+    },
+    {
+      "segment_id": "R0262",
+      "throughput_amplification": 1.4162,
+      "robust_z": 0.51,
+      "recurrence_days_frac": 0.2,
+      "peak_mean_congestion": 0.021,
+      "detected": false
+    },
+    {
+      "segment_id": "R0263",
+      "throughput_amplification": 1.4428,
+      "robust_z": 1.02,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0573,
+      "detected": false
+    },
+    {
+      "segment_id": "R0264",
+      "throughput_amplification": 1.5274,
+      "robust_z": 2.66,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0834,
+      "detected": false
+    },
+    {
+      "segment_id": "R0265",
+      "throughput_amplification": 1.4915,
+      "robust_z": 1.96,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.104,
+      "detected": false
+    },
+    {
+      "segment_id": "R0266",
+      "throughput_amplification": 1.5521,
+      "robust_z": 3.13,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0894,
+      "detected": false
+    },
+    {
+      "segment_id": "R0267",
+      "throughput_amplification": 1.4377,
+      "robust_z": 0.92,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0279,
+      "detected": false
+    },
+    {
+      "segment_id": "R0268",
+      "throughput_amplification": 1.3898,
+      "robust_z": -0.0,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0264,
+      "detected": false
+    },
+    {
+      "segment_id": "R0269",
+      "throughput_amplification": 1.4402,
+      "robust_z": 0.97,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0204,
+      "detected": false
+    },
+    {
+      "segment_id": "R0270",
+      "throughput_amplification": 1.4081,
+      "robust_z": 0.35,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0251,
+      "detected": false
+    },
+    {
+      "segment_id": "R0271",
+      "throughput_amplification": 1.402,
+      "robust_z": 0.23,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0357,
+      "detected": false
+    },
+    {
+      "segment_id": "R0272",
+      "throughput_amplification": 1.3987,
+      "robust_z": 0.17,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0275,
+      "detected": false
+    },
+    {
+      "segment_id": "R0273",
+      "throughput_amplification": 1.4001,
+      "robust_z": 0.2,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0341,
+      "detected": false
+    },
+    {
+      "segment_id": "R0274",
+      "throughput_amplification": 1.3933,
+      "robust_z": 0.07,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0354,
+      "detected": false
+    },
+    {
+      "segment_id": "R0275",
+      "throughput_amplification": 1.3576,
+      "robust_z": -0.62,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0298,
+      "detected": false
+    },
+    {
+      "segment_id": "R0276",
+      "throughput_amplification": 1.4138,
+      "robust_z": 0.46,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0244,
+      "detected": false
+    },
+    {
+      "segment_id": "R0277",
+      "throughput_amplification": 1.3727,
+      "robust_z": -0.33,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1278,
+      "detected": false
+    },
+    {
+      "segment_id": "R0278",
+      "throughput_amplification": 1.3915,
+      "robust_z": 0.03,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0689,
+      "detected": false
+    },
+    {
+      "segment_id": "R0279",
+      "throughput_amplification": 1.393,
+      "robust_z": 0.06,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0958,
+      "detected": false
+    },
+    {
+      "segment_id": "R0280",
+      "throughput_amplification": 1.3766,
+      "robust_z": -0.26,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1149,
+      "detected": false
+    },
+    {
+      "segment_id": "R0281",
+      "throughput_amplification": 1.3623,
+      "robust_z": -0.53,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1328,
+      "detected": false
+    },
+    {
+      "segment_id": "R0282",
+      "throughput_amplification": 1.4086,
+      "robust_z": 0.36,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1078,
+      "detected": false
+    },
+    {
+      "segment_id": "R0283",
+      "throughput_amplification": 1.3332,
+      "robust_z": -1.09,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0607,
+      "detected": false
+    },
+    {
+      "segment_id": "R0284",
+      "throughput_amplification": 1.3466,
+      "robust_z": -0.84,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0935,
+      "detected": false
+    },
+    {
+      "segment_id": "R0285",
+      "throughput_amplification": 1.3728,
+      "robust_z": -0.33,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1064,
+      "detected": false
+    },
+    {
+      "segment_id": "R0286",
+      "throughput_amplification": 1.511,
+      "robust_z": 2.34,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.115,
+      "detected": false
+    },
+    {
+      "segment_id": "R0287",
+      "throughput_amplification": 1.3862,
+      "robust_z": -0.07,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0915,
+      "detected": false
+    },
+    {
+      "segment_id": "R0288",
+      "throughput_amplification": 1.3739,
+      "robust_z": -0.31,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0974,
+      "detected": false
+    },
+    {
+      "segment_id": "R0289",
+      "throughput_amplification": 1.443,
+      "robust_z": 1.03,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0712,
+      "detected": false
+    },
+    {
+      "segment_id": "R0290",
+      "throughput_amplification": 1.4577,
+      "robust_z": 1.31,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1023,
+      "detected": false
+    },
+    {
+      "segment_id": "R0291",
+      "throughput_amplification": 1.5192,
+      "robust_z": 2.5,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1072,
+      "detected": false
+    },
+    {
+      "segment_id": "R0292",
+      "throughput_amplification": 1.3412,
+      "robust_z": -0.94,
+      "recurrence_days_frac": 0.2,
+      "peak_mean_congestion": 0.0568,
+      "detected": false
+    },
+    {
+      "segment_id": "R0293",
+      "throughput_amplification": 1.424,
+      "robust_z": 0.66,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1446,
+      "detected": false
+    },
+    {
+      "segment_id": "R0294",
+      "throughput_amplification": 1.3183,
+      "robust_z": -1.38,
+      "recurrence_days_frac": 0.6,
+      "peak_mean_congestion": 0.0733,
+      "detected": false
+    },
+    {
+      "segment_id": "R0295",
+      "throughput_amplification": 1.4963,
+      "robust_z": 2.06,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.064,
+      "detected": false
+    },
+    {
+      "segment_id": "R0296",
+      "throughput_amplification": 1.5389,
+      "robust_z": 2.88,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1161,
+      "detected": false
+    },
+    {
+      "segment_id": "R0297",
+      "throughput_amplification": 1.2638,
+      "robust_z": -2.43,
+      "recurrence_days_frac": 0.867,
+      "peak_mean_congestion": 0.0622,
+      "detected": false
+    },
+    {
+      "segment_id": "R0298",
+      "throughput_amplification": 1.4698,
+      "robust_z": 1.54,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0597,
+      "detected": false
+    },
+    {
+      "segment_id": "R0299",
+      "throughput_amplification": 1.495,
+      "robust_z": 2.03,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1054,
+      "detected": false
+    },
+    {
+      "segment_id": "R0300",
+      "throughput_amplification": 1.4483,
+      "robust_z": 1.13,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0754,
+      "detected": false
+    },
+    {
+      "segment_id": "R0301",
+      "throughput_amplification": 1.5126,
+      "robust_z": 2.37,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1022,
+      "detected": false
+    },
+    {
+      "segment_id": "R0302",
+      "throughput_amplification": 1.4201,
+      "robust_z": 0.58,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.125,
+      "detected": false
+    },
+    {
+      "segment_id": "R0303",
+      "throughput_amplification": 1.4849,
+      "robust_z": 1.83,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.102,
+      "detected": false
+    },
+    {
+      "segment_id": "R0304",
+      "throughput_amplification": 1.5202,
+      "robust_z": 2.52,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1161,
+      "detected": false
+    },
+    {
+      "segment_id": "R0305",
+      "throughput_amplification": 1.4431,
+      "robust_z": 1.03,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.09,
+      "detected": false
+    },
+    {
+      "segment_id": "R0306",
+      "throughput_amplification": 1.4945,
+      "robust_z": 2.02,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0743,
+      "detected": false
+    },
+    {
+      "segment_id": "R0307",
+      "throughput_amplification": 1.4793,
+      "robust_z": 1.73,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0597,
+      "detected": false
+    },
+    {
+      "segment_id": "R0308",
+      "throughput_amplification": 1.4778,
+      "robust_z": 1.7,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0648,
+      "detected": false
+    },
+    {
+      "segment_id": "R0309",
+      "throughput_amplification": 1.4893,
+      "robust_z": 1.92,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0536,
+      "detected": false
+    },
+    {
+      "segment_id": "R0310",
+      "throughput_amplification": 1.4031,
+      "robust_z": 0.26,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0622,
+      "detected": false
+    },
+    {
+      "segment_id": "R0311",
+      "throughput_amplification": 1.4965,
+      "robust_z": 2.06,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0985,
+      "detected": false
+    },
+    {
+      "segment_id": "R0312",
+      "throughput_amplification": 1.3899,
+      "robust_z": 0.0,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1371,
+      "detected": false
+    },
+    {
+      "segment_id": "R0313",
+      "throughput_amplification": 1.3767,
+      "robust_z": -0.25,
+      "recurrence_days_frac": 0.2,
+      "peak_mean_congestion": 0.0494,
+      "detected": false
+    },
+    {
+      "segment_id": "R0314",
+      "throughput_amplification": 1.3639,
+      "robust_z": -0.5,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0517,
+      "detected": false
+    },
+    {
+      "segment_id": "R0315",
+      "throughput_amplification": 1.3609,
+      "robust_z": -0.56,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0952,
+      "detected": false
+    },
+    {
+      "segment_id": "R0316",
+      "throughput_amplification": 1.4192,
+      "robust_z": 0.57,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.053,
+      "detected": false
+    },
+    {
+      "segment_id": "R0317",
+      "throughput_amplification": 1.3861,
+      "robust_z": -0.07,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1323,
+      "detected": false
+    },
+    {
+      "segment_id": "R0318",
+      "throughput_amplification": 1.3979,
+      "robust_z": 0.15,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0892,
+      "detected": false
+    },
+    {
+      "segment_id": "R0319",
+      "throughput_amplification": 1.4189,
+      "robust_z": 0.56,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.06,
+      "detected": false
+    },
+    {
+      "segment_id": "R0320",
+      "throughput_amplification": 1.3855,
+      "robust_z": -0.09,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0736,
+      "detected": false
+    },
+    {
+      "segment_id": "R0321",
+      "throughput_amplification": 1.3584,
+      "robust_z": -0.61,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0916,
+      "detected": false
+    },
+    {
+      "segment_id": "R0322",
+      "throughput_amplification": 1.3404,
+      "robust_z": -0.95,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0817,
+      "detected": false
+    },
+    {
+      "segment_id": "R0323",
+      "throughput_amplification": 1.3765,
+      "robust_z": -0.26,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0376,
+      "detected": false
+    },
+    {
+      "segment_id": "R0324",
+      "throughput_amplification": 1.3524,
+      "robust_z": -0.72,
+      "recurrence_days_frac": 0.2,
+      "peak_mean_congestion": 0.0148,
+      "detected": false
+    },
+    {
+      "segment_id": "R0325",
+      "throughput_amplification": 1.3758,
+      "robust_z": -0.27,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0221,
+      "detected": false
+    },
+    {
+      "segment_id": "R0326",
+      "throughput_amplification": 1.3315,
+      "robust_z": -1.13,
+      "recurrence_days_frac": 0.2,
+      "peak_mean_congestion": 0.0297,
+      "detected": false
+    },
+    {
+      "segment_id": "R0327",
+      "throughput_amplification": 1.4059,
+      "robust_z": 0.31,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0332,
+      "detected": false
+    },
+    {
+      "segment_id": "R0328",
+      "throughput_amplification": 1.3942,
+      "robust_z": 0.08,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0164,
+      "detected": false
+    },
+    {
+      "segment_id": "R0329",
+      "throughput_amplification": 1.3548,
+      "robust_z": -0.68,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0219,
+      "detected": false
+    },
+    {
+      "segment_id": "R0330",
+      "throughput_amplification": 1.3566,
+      "robust_z": -0.64,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0264,
+      "detected": false
+    },
+    {
+      "segment_id": "R0331",
+      "throughput_amplification": 1.3903,
+      "robust_z": 0.01,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0809,
+      "detected": false
+    },
+    {
+      "segment_id": "R0332",
+      "throughput_amplification": 1.3203,
+      "robust_z": -1.34,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0493,
+      "detected": false
+    },
+    {
+      "segment_id": "R0333",
+      "throughput_amplification": 1.3708,
+      "robust_z": -0.37,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0673,
+      "detected": false
+    },
+    {
+      "segment_id": "R0334",
+      "throughput_amplification": 1.3573,
+      "robust_z": -0.63,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.054,
+      "detected": false
+    },
+    {
+      "segment_id": "R0335",
+      "throughput_amplification": 1.4004,
+      "robust_z": 0.2,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0332,
+      "detected": false
+    },
+    {
+      "segment_id": "R0336",
+      "throughput_amplification": 1.3688,
+      "robust_z": -0.41,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0331,
+      "detected": false
+    },
+    {
+      "segment_id": "R0337",
+      "throughput_amplification": 1.3458,
+      "robust_z": -0.85,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0275,
+      "detected": false
+    },
+    {
+      "segment_id": "R0338",
+      "throughput_amplification": 1.4108,
+      "robust_z": 0.4,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0299,
+      "detected": false
+    },
+    {
+      "segment_id": "R0339",
+      "throughput_amplification": 1.4969,
+      "robust_z": 2.07,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0302,
+      "detected": false
+    },
+    {
+      "segment_id": "R0340",
+      "throughput_amplification": 1.467,
+      "robust_z": 1.49,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0162,
+      "detected": false
+    },
+    {
+      "segment_id": "R0341",
+      "throughput_amplification": 1.473,
+      "robust_z": 1.61,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0299,
+      "detected": false
+    },
+    {
+      "segment_id": "R0342",
+      "throughput_amplification": 1.3877,
+      "robust_z": -0.04,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0339,
+      "detected": false
+    },
+    {
+      "segment_id": "R0343",
+      "throughput_amplification": 1.5106,
+      "robust_z": 2.33,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1006,
+      "detected": false
+    },
+    {
+      "segment_id": "R0344",
+      "throughput_amplification": 1.4374,
+      "robust_z": 0.92,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1415,
+      "detected": false
+    },
+    {
+      "segment_id": "R0345",
+      "throughput_amplification": 1.4309,
+      "robust_z": 0.79,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1387,
+      "detected": false
+    },
+    {
+      "segment_id": "R0346",
+      "throughput_amplification": 1.4665,
+      "robust_z": 1.48,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1016,
+      "detected": false
+    },
+    {
+      "segment_id": "R0347",
+      "throughput_amplification": 1.5783,
+      "robust_z": 3.64,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0358,
+      "detected": false
+    },
+    {
+      "segment_id": "R0348",
+      "throughput_amplification": 1.483,
+      "robust_z": 1.8,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0328,
+      "detected": false
+    },
+    {
+      "segment_id": "R0349",
+      "throughput_amplification": 1.4598,
+      "robust_z": 1.35,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0256,
+      "detected": false
+    },
+    {
+      "segment_id": "R0350",
+      "throughput_amplification": 1.4424,
+      "robust_z": 1.01,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0234,
+      "detected": false
+    },
+    {
+      "segment_id": "R0351",
+      "throughput_amplification": 1.4453,
+      "robust_z": 1.07,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0155,
+      "detected": false
+    },
+    {
+      "segment_id": "R0352",
+      "throughput_amplification": 1.3789,
+      "robust_z": -0.21,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0171,
+      "detected": false
+    },
+    {
+      "segment_id": "R0353",
+      "throughput_amplification": 1.4269,
+      "robust_z": 0.71,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0373,
+      "detected": false
+    },
+    {
+      "segment_id": "R0354",
+      "throughput_amplification": 1.3484,
+      "robust_z": -0.8,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0291,
+      "detected": false
+    },
+    {
+      "segment_id": "R0355",
+      "throughput_amplification": 1.378,
+      "robust_z": -0.23,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0851,
+      "detected": false
+    },
+    {
+      "segment_id": "R0356",
+      "throughput_amplification": 1.3596,
+      "robust_z": -0.58,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0759,
+      "detected": false
+    },
+    {
+      "segment_id": "R0357",
+      "throughput_amplification": 1.389,
+      "robust_z": -0.02,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0722,
+      "detected": false
+    },
+    {
+      "segment_id": "R0358",
+      "throughput_amplification": 1.3351,
+      "robust_z": -1.06,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.056,
+      "detected": false
+    },
+    {
+      "segment_id": "R0359",
+      "throughput_amplification": 1.3761,
+      "robust_z": -0.27,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0217,
+      "detected": false
+    },
+    {
+      "segment_id": "R0360",
+      "throughput_amplification": 1.3382,
+      "robust_z": -1.0,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0185,
+      "detected": false
+    },
+    {
+      "segment_id": "R0361",
+      "throughput_amplification": 1.3385,
+      "robust_z": -0.99,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0183,
+      "detected": false
+    },
+    {
+      "segment_id": "R0362",
+      "throughput_amplification": 1.3375,
+      "robust_z": -1.01,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0235,
+      "detected": false
+    },
+    {
+      "segment_id": "R0363",
+      "throughput_amplification": 1.3541,
+      "robust_z": -0.69,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.026,
+      "detected": false
+    },
+    {
+      "segment_id": "R0364",
+      "throughput_amplification": 1.4139,
+      "robust_z": 0.46,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0291,
+      "detected": false
+    },
+    {
+      "segment_id": "R0365",
+      "throughput_amplification": 1.4028,
+      "robust_z": 0.25,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.019,
+      "detected": false
+    },
+    {
+      "segment_id": "R0366",
+      "throughput_amplification": 1.394,
+      "robust_z": 0.08,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0185,
+      "detected": false
+    },
+    {
+      "segment_id": "R0367",
+      "throughput_amplification": 1.3629,
+      "robust_z": -0.52,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0273,
+      "detected": false
+    },
+    {
+      "segment_id": "R0368",
+      "throughput_amplification": 1.3713,
+      "robust_z": -0.36,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0366,
+      "detected": false
+    },
+    {
+      "segment_id": "R0369",
+      "throughput_amplification": 1.3805,
+      "robust_z": -0.18,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0339,
+      "detected": false
+    },
+    {
+      "segment_id": "R0370",
+      "throughput_amplification": 1.3866,
+      "robust_z": -0.06,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0169,
+      "detected": false
+    },
+    {
+      "segment_id": "R0371",
+      "throughput_amplification": 1.4147,
+      "robust_z": 0.48,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0172,
+      "detected": false
+    },
+    {
+      "segment_id": "R0372",
+      "throughput_amplification": 1.3521,
+      "robust_z": -0.73,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0419,
+      "detected": false
+    },
+    {
+      "segment_id": "R0373",
+      "throughput_amplification": 1.3576,
+      "robust_z": -0.62,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0366,
+      "detected": false
+    },
+    {
+      "segment_id": "R0374",
+      "throughput_amplification": 1.4185,
+      "robust_z": 0.55,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0217,
+      "detected": false
+    },
+    {
+      "segment_id": "R0375",
+      "throughput_amplification": 1.3165,
+      "robust_z": -1.42,
+      "recurrence_days_frac": 0.2,
+      "peak_mean_congestion": 0.0221,
+      "detected": false
+    },
+    {
+      "segment_id": "R0376",
+      "throughput_amplification": 1.4008,
+      "robust_z": 0.21,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0176,
+      "detected": false
+    },
+    {
+      "segment_id": "R0377",
+      "throughput_amplification": 1.3425,
+      "robust_z": -0.91,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.1225,
+      "detected": false
+    },
+    {
+      "segment_id": "R0378",
+      "throughput_amplification": 1.4406,
+      "robust_z": 0.98,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0546,
+      "detected": false
+    },
+    {
+      "segment_id": "R0379",
+      "throughput_amplification": 1.3723,
+      "robust_z": -0.34,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.139,
+      "detected": false
+    },
+    {
+      "segment_id": "R0380",
+      "throughput_amplification": 1.384,
+      "robust_z": -0.11,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0577,
+      "detected": false
+    },
+    {
+      "segment_id": "R0381",
+      "throughput_amplification": 1.3947,
+      "robust_z": 0.09,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0355,
+      "detected": false
+    },
+    {
+      "segment_id": "R0382",
+      "throughput_amplification": 1.3441,
+      "robust_z": -0.89,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0282,
+      "detected": false
+    },
+    {
+      "segment_id": "R0383",
+      "throughput_amplification": 1.4141,
+      "robust_z": 0.47,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0233,
+      "detected": false
+    },
+    {
+      "segment_id": "R0384",
+      "throughput_amplification": 1.3856,
+      "robust_z": -0.08,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0236,
+      "detected": false
+    },
+    {
+      "segment_id": "R0385",
+      "throughput_amplification": 1.4275,
+      "robust_z": 0.73,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0232,
+      "detected": false
+    },
+    {
+      "segment_id": "R0386",
+      "throughput_amplification": 1.4732,
+      "robust_z": 1.61,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0195,
+      "detected": false
+    },
+    {
+      "segment_id": "R0387",
+      "throughput_amplification": 1.4206,
+      "robust_z": 0.59,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.02,
+      "detected": false
+    },
+    {
+      "segment_id": "R0388",
+      "throughput_amplification": 1.3523,
+      "robust_z": -0.73,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0353,
+      "detected": false
+    },
+    {
+      "segment_id": "R0389",
+      "throughput_amplification": 1.4443,
+      "robust_z": 1.05,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0859,
+      "detected": false
+    },
+    {
+      "segment_id": "R0390",
+      "throughput_amplification": 1.4754,
+      "robust_z": 1.65,
+      "recurrence_days_frac": 0.2,
+      "peak_mean_congestion": 0.0863,
+      "detected": false
+    },
+    {
+      "segment_id": "R0391",
+      "throughput_amplification": 1.4691,
+      "robust_z": 1.53,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1369,
+      "detected": false
+    },
+    {
+      "segment_id": "R0392",
+      "throughput_amplification": 1.3969,
+      "robust_z": 0.14,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0949,
+      "detected": false
+    },
+    {
+      "segment_id": "R0393",
+      "throughput_amplification": 1.5286,
+      "robust_z": 2.68,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0152,
+      "detected": false
+    },
+    {
+      "segment_id": "R0394",
+      "throughput_amplification": 1.3572,
+      "robust_z": -0.63,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.035,
+      "detected": false
+    },
+    {
+      "segment_id": "R0395",
+      "throughput_amplification": 1.4755,
+      "robust_z": 1.65,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0183,
+      "detected": false
+    },
+    {
+      "segment_id": "R0396",
+      "throughput_amplification": 1.3626,
+      "robust_z": -0.53,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0171,
+      "detected": false
+    },
+    {
+      "segment_id": "R0397",
+      "throughput_amplification": 1.3888,
+      "robust_z": -0.02,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0149,
+      "detected": false
+    },
+    {
+      "segment_id": "R0398",
+      "throughput_amplification": 1.3374,
+      "robust_z": -1.01,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0347,
+      "detected": false
+    },
+    {
+      "segment_id": "R0399",
+      "throughput_amplification": 1.3887,
+      "robust_z": -0.02,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.031,
+      "detected": false
+    },
+    {
+      "segment_id": "R0400",
+      "throughput_amplification": 1.3631,
+      "robust_z": -0.52,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0255,
+      "detected": false
+    },
+    {
+      "segment_id": "R0401",
+      "throughput_amplification": 1.4165,
+      "robust_z": 0.51,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0798,
+      "detected": false
+    },
+    {
+      "segment_id": "R0402",
+      "throughput_amplification": 1.3737,
+      "robust_z": -0.31,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1323,
+      "detected": false
+    },
+    {
+      "segment_id": "R0403",
+      "throughput_amplification": 1.3559,
+      "robust_z": -0.66,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.1105,
+      "detected": false
+    },
+    {
+      "segment_id": "R0404",
+      "throughput_amplification": 1.3639,
+      "robust_z": -0.5,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0806,
+      "detected": false
+    },
+    {
+      "segment_id": "R0405",
+      "throughput_amplification": 1.3764,
+      "robust_z": -0.26,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0256,
+      "detected": false
+    },
+    {
+      "segment_id": "R0406",
+      "throughput_amplification": 1.3598,
+      "robust_z": -0.58,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0133,
+      "detected": false
+    },
+    {
+      "segment_id": "R0407",
+      "throughput_amplification": 1.3491,
+      "robust_z": -0.79,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0342,
+      "detected": false
+    },
+    {
+      "segment_id": "R0408",
+      "throughput_amplification": 1.3626,
+      "robust_z": -0.53,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0169,
+      "detected": false
+    },
+    {
+      "segment_id": "R0409",
+      "throughput_amplification": 1.361,
+      "robust_z": -0.56,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0144,
+      "detected": false
+    },
+    {
+      "segment_id": "R0410",
+      "throughput_amplification": 1.33,
+      "robust_z": -1.16,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0155,
+      "detected": false
+    },
+    {
+      "segment_id": "R0411",
+      "throughput_amplification": 1.368,
+      "robust_z": -0.42,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0311,
+      "detected": false
+    },
+    {
+      "segment_id": "R0412",
+      "throughput_amplification": 1.3308,
+      "robust_z": -1.14,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0329,
+      "detected": false
+    },
+    {
+      "segment_id": "R0413",
+      "throughput_amplification": 1.3554,
+      "robust_z": -0.67,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0369,
+      "detected": false
+    },
+    {
+      "segment_id": "R0414",
+      "throughput_amplification": 1.4004,
+      "robust_z": 0.2,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0334,
+      "detected": false
+    },
+    {
+      "segment_id": "R0415",
+      "throughput_amplification": 1.3933,
+      "robust_z": 0.07,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0378,
+      "detected": false
+    },
+    {
+      "segment_id": "R0416",
+      "throughput_amplification": 1.3407,
+      "robust_z": -0.95,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0152,
+      "detected": false
+    },
+    {
+      "segment_id": "R0417",
+      "throughput_amplification": 1.3399,
+      "robust_z": -0.97,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0325,
+      "detected": false
+    },
+    {
+      "segment_id": "R0418",
+      "throughput_amplification": 1.3629,
+      "robust_z": -0.52,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0227,
+      "detected": false
+    },
+    {
+      "segment_id": "R0419",
+      "throughput_amplification": 1.3802,
+      "robust_z": -0.19,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0906,
+      "detected": false
+    },
+    {
+      "segment_id": "R0420",
+      "throughput_amplification": 1.3633,
+      "robust_z": -0.51,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.112,
+      "detected": false
+    },
+    {
+      "segment_id": "R0421",
+      "throughput_amplification": 1.3801,
+      "robust_z": -0.19,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0144,
+      "detected": false
+    },
+    {
+      "segment_id": "R0422",
+      "throughput_amplification": 1.3125,
+      "robust_z": -1.49,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.02,
+      "detected": false
+    },
+    {
+      "segment_id": "R0423",
+      "throughput_amplification": 1.3519,
+      "robust_z": -0.73,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0336,
+      "detected": false
+    },
+    {
+      "segment_id": "R0424",
+      "throughput_amplification": 1.3407,
+      "robust_z": -0.95,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0243,
+      "detected": false
+    },
+    {
+      "segment_id": "R0425",
+      "throughput_amplification": 1.3516,
+      "robust_z": -0.74,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0736,
+      "detected": false
+    },
+    {
+      "segment_id": "R0426",
+      "throughput_amplification": 1.4069,
+      "robust_z": 0.33,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.1024,
+      "detected": false
+    },
+    {
+      "segment_id": "R0427",
+      "throughput_amplification": 1.3752,
+      "robust_z": -0.28,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0132,
+      "detected": false
+    },
+    {
+      "segment_id": "R0428",
+      "throughput_amplification": 1.3859,
+      "robust_z": -0.08,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0266,
+      "detected": false
+    },
+    {
+      "segment_id": "R0429",
+      "throughput_amplification": 1.3778,
+      "robust_z": -0.23,
+      "recurrence_days_frac": 0.2,
+      "peak_mean_congestion": 0.033,
+      "detected": false
+    },
+    {
+      "segment_id": "R0430",
+      "throughput_amplification": 1.382,
+      "robust_z": -0.15,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0239,
+      "detected": false
+    },
+    {
+      "segment_id": "R0431",
+      "throughput_amplification": 1.3879,
+      "robust_z": -0.04,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0606,
+      "detected": false
+    },
+    {
+      "segment_id": "R0432",
+      "throughput_amplification": 1.3774,
+      "robust_z": -0.24,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.067,
+      "detected": false
+    },
+    {
+      "segment_id": "R0433",
+      "throughput_amplification": 1.3987,
+      "robust_z": 0.17,
+      "recurrence_days_frac": 0.067,
+      "peak_mean_congestion": 0.0333,
+      "detected": false
+    },
+    {
+      "segment_id": "R0434",
+      "throughput_amplification": 1.3702,
+      "robust_z": -0.38,
+      "recurrence_days_frac": 0.133,
+      "peak_mean_congestion": 0.0292,
+      "detected": false
+    },
+    {
+      "segment_id": "R0435",
+      "throughput_amplification": 1.3821,
+      "robust_z": -0.15,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0163,
+      "detected": false
+    },
+    {
+      "segment_id": "R0436",
+      "throughput_amplification": 1.379,
+      "robust_z": -0.21,
+      "recurrence_days_frac": 0.0,
+      "peak_mean_congestion": 0.0191,
+      "detected": false
+    }
+  ]
+}

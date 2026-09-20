@@ -1,0 +1,876 @@
+[
+  {
+    "file": "context_train.csv",
+    "size_bytes": 183206,
+    "rows": 4320,
+    "columns": [
+      {
+        "name": "timestamp",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "temperature_c",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "rain_intensity",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "event_level",
+        "type": "BIGINT"
+      },
+      {
+        "name": "event_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "holiday_flag",
+        "type": "BIGINT"
+      },
+      {
+        "name": "day_of_week",
+        "type": "BIGINT"
+      },
+      {
+        "name": "hour",
+        "type": "DOUBLE"
+      }
+    ],
+    "null_counts": {
+      "event_id": 4303
+    },
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {
+      "timestamp": {
+        "min": "2026-01-01 00:00:00",
+        "max": "2026-01-15 23:55:00"
+      }
+    },
+    "geo_ranges": {}
+  },
+  {
+    "file": "context_validation.csv",
+    "size_bytes": 49389,
+    "rows": 1152,
+    "columns": [
+      {
+        "name": "timestamp",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "temperature_c",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "rain_intensity",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "event_level",
+        "type": "BIGINT"
+      },
+      {
+        "name": "event_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "holiday_flag",
+        "type": "BIGINT"
+      },
+      {
+        "name": "day_of_week",
+        "type": "BIGINT"
+      },
+      {
+        "name": "hour",
+        "type": "DOUBLE"
+      }
+    ],
+    "null_counts": {
+      "event_id": 1109
+    },
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {
+      "timestamp": {
+        "min": "2026-01-16 00:00:00",
+        "max": "2026-01-19 23:55:00"
+      }
+    },
+    "geo_ranges": {}
+  },
+  {
+    "file": "forecast_targets_train.csv",
+    "size_bytes": 37325445,
+    "rows": 366240,
+    "columns": [
+      {
+        "name": "timestamp",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "segment_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "target_speed_15m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_flow_15m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_congestion_15m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_speed_30m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_flow_30m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_congestion_30m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_speed_45m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_flow_45m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_congestion_45m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_speed_60m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_flow_60m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_congestion_60m",
+        "type": "DOUBLE"
+      }
+    ],
+    "null_counts": {},
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {
+      "timestamp": {
+        "min": "2026-01-01 00:00:00",
+        "max": "2026-01-15 22:55:00"
+      }
+    },
+    "geo_ranges": {}
+  },
+  {
+    "file": "forecast_targets_validation.csv",
+    "size_bytes": 49015422,
+    "rows": 481344,
+    "columns": [
+      {
+        "name": "timestamp",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "segment_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "target_speed_15m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_flow_15m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_congestion_15m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_speed_30m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_flow_30m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_congestion_30m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_speed_45m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_flow_45m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_congestion_45m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_speed_60m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_flow_60m",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "target_congestion_60m",
+        "type": "DOUBLE"
+      }
+    ],
+    "null_counts": {},
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {
+      "timestamp": {
+        "min": "2026-01-16 00:00:00",
+        "max": "2026-01-19 22:55:00"
+      }
+    },
+    "geo_ranges": {}
+  },
+  {
+    "file": "incidents_train.csv",
+    "size_bytes": 3918,
+    "rows": 49,
+    "columns": [
+      {
+        "name": "incident_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "start_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "end_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "segment_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "incident_type",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "severity",
+        "type": "BIGINT"
+      },
+      {
+        "name": "lanes_blocked",
+        "type": "BIGINT"
+      }
+    ],
+    "null_counts": {},
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {
+      "start_time": {
+        "min": "2026-01-01 06:05:00",
+        "max": "2026-01-15 20:47:00"
+      },
+      "end_time": {
+        "min": "2026-01-01 06:20:00",
+        "max": "2026-01-15 21:16:00"
+      }
+    },
+    "geo_ranges": {}
+  },
+  {
+    "file": "incidents_validation.csv",
+    "size_bytes": 940,
+    "rows": 11,
+    "columns": [
+      {
+        "name": "incident_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "start_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "end_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "segment_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "incident_type",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "severity",
+        "type": "BIGINT"
+      },
+      {
+        "name": "lanes_blocked",
+        "type": "BIGINT"
+      }
+    ],
+    "null_counts": {},
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {
+      "start_time": {
+        "min": "2026-01-16 13:13:00",
+        "max": "2026-01-19 16:36:00"
+      },
+      "end_time": {
+        "min": "2026-01-16 13:54:00",
+        "max": "2026-01-19 17:12:00"
+      }
+    },
+    "geo_ranges": {}
+  },
+  {
+    "file": "network.csv",
+    "size_bytes": 35549,
+    "rows": 436,
+    "columns": [
+      {
+        "name": "segment_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "source_node",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "target_node",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "road_class",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "lanes",
+        "type": "BIGINT"
+      },
+      {
+        "name": "free_flow_speed_kmh",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "capacity_vph",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "length_km",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "grade_pct",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "signal_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "structural_bottleneck",
+        "type": "BIGINT"
+      },
+      {
+        "name": "importance",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "peak_capacity_factor",
+        "type": "DOUBLE"
+      }
+    ],
+    "null_counts": {
+      "signal_id": 111
+    },
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {},
+    "geo_ranges": {}
+  },
+  {
+    "file": "nodes.csv",
+    "size_bytes": 2734,
+    "rows": 120,
+    "columns": [
+      {
+        "name": "node_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "x",
+        "type": "BIGINT"
+      },
+      {
+        "name": "y",
+        "type": "BIGINT"
+      },
+      {
+        "name": "lat",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "lon",
+        "type": "DOUBLE"
+      }
+    ],
+    "null_counts": {},
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {},
+    "geo_ranges": {
+      "lat/lon": {
+        "lat": [
+          17.3,
+          17.462
+        ],
+        "lon": [
+          78.35,
+          78.548
+        ]
+      },
+      "x/y": {
+        "x": [
+          0,
+          11
+        ],
+        "y": [
+          0,
+          9
+        ]
+      }
+    }
+  },
+  {
+    "file": "od_demand_profiles.csv",
+    "size_bytes": 43413,
+    "rows": 1500,
+    "columns": [
+      {
+        "name": "od_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "origin_node",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "destination_node",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "base_demand_vph",
+        "type": "BIGINT"
+      },
+      {
+        "name": "purpose",
+        "type": "VARCHAR"
+      }
+    ],
+    "null_counts": {},
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {},
+    "geo_ranges": {}
+  },
+  {
+    "file": "planning_candidates.csv",
+    "size_bytes": 3740,
+    "rows": 90,
+    "columns": [
+      {
+        "name": "candidate_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "target_segment",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "intervention_type",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "capacity_delta_vph",
+        "type": "BIGINT"
+      },
+      {
+        "name": "cost_index",
+        "type": "BIGINT"
+      },
+      {
+        "name": "feasibility_band",
+        "type": "VARCHAR"
+      }
+    ],
+    "null_counts": {},
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {},
+    "geo_ranges": {}
+  },
+  {
+    "file": "roadworks_train.csv",
+    "size_bytes": 680,
+    "rows": 8,
+    "columns": [
+      {
+        "name": "work_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "segment_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "start_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "end_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "closure_fraction",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "work_type",
+        "type": "VARCHAR"
+      }
+    ],
+    "null_counts": {},
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {
+      "start_time": {
+        "min": "2026-01-02 08:00:00",
+        "max": "2026-01-12 10:00:00"
+      },
+      "end_time": {
+        "min": "2026-01-02 12:59:00",
+        "max": "2026-01-12 19:42:00"
+      }
+    },
+    "geo_ranges": {}
+  },
+  {
+    "file": "roadworks_validation.csv",
+    "size_bytes": 303,
+    "rows": 3,
+    "columns": [
+      {
+        "name": "work_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "segment_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "start_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "end_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "closure_fraction",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "work_type",
+        "type": "VARCHAR"
+      }
+    ],
+    "null_counts": {},
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {
+      "start_time": {
+        "min": "2026-01-16 12:00:00",
+        "max": "2026-01-18 15:00:00"
+      },
+      "end_time": {
+        "min": "2026-01-16 18:49:00",
+        "max": "2026-01-19 00:50:00"
+      }
+    },
+    "geo_ranges": {}
+  },
+  {
+    "file": "scenario_examples.csv",
+    "size_bytes": 4593,
+    "rows": 30,
+    "columns": [
+      {
+        "name": "scenario_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "scenario_type",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "start_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "end_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "target_segment",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "incident_type",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "severity",
+        "type": "BIGINT"
+      },
+      {
+        "name": "candidate_interventions",
+        "type": "VARCHAR"
+      }
+    ],
+    "null_counts": {},
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {
+      "start_time": {
+        "min": "2026-01-01 06:13:00",
+        "max": "2026-01-15 20:47:00"
+      },
+      "end_time": {
+        "min": "2026-01-01 06:45:00",
+        "max": "2026-01-15 21:16:00"
+      }
+    },
+    "geo_ranges": {}
+  },
+  {
+    "file": "signal_plans.csv",
+    "size_bytes": 2234,
+    "rows": 89,
+    "columns": [
+      {
+        "name": "signal_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "node_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "cycle_s",
+        "type": "BIGINT"
+      },
+      {
+        "name": "green_ratio",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "offset_s",
+        "type": "BIGINT"
+      }
+    ],
+    "null_counts": {},
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {},
+    "geo_ranges": {}
+  },
+  {
+    "file": "traffic_train.csv",
+    "size_bytes": 162767823,
+    "rows": 1883520,
+    "columns": [
+      {
+        "name": "timestamp",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "segment_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "source_node",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "target_node",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "speed_kmh",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "flow_vph",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "occupancy_pct",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "travel_time_min",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "free_flow_time_min",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "delay_min",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "queue_length_veh",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "congestion_index",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "sensor_quality",
+        "type": "DOUBLE"
+      }
+    ],
+    "null_counts": {},
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {
+      "timestamp": {
+        "min": "2026-01-01 00:00:00",
+        "max": "2026-01-15 23:55:00"
+      }
+    },
+    "geo_ranges": {}
+  },
+  {
+    "file": "traffic_validation.csv",
+    "size_bytes": 43390023,
+    "rows": 502272,
+    "columns": [
+      {
+        "name": "timestamp",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "segment_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "source_node",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "target_node",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "speed_kmh",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "flow_vph",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "occupancy_pct",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "travel_time_min",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "free_flow_time_min",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "delay_min",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "queue_length_veh",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "congestion_index",
+        "type": "DOUBLE"
+      },
+      {
+        "name": "sensor_quality",
+        "type": "DOUBLE"
+      }
+    ],
+    "null_counts": {},
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {
+      "timestamp": {
+        "min": "2026-01-16 00:00:00",
+        "max": "2026-01-19 23:55:00"
+      }
+    },
+    "geo_ranges": {}
+  },
+  {
+    "file": "turn_restrictions.csv",
+    "size_bytes": 1661,
+    "rows": 61,
+    "columns": [
+      {
+        "name": "node_id",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "from_segment",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "to_segment",
+        "type": "VARCHAR"
+      },
+      {
+        "name": "restriction",
+        "type": "VARCHAR"
+      }
+    ],
+    "null_counts": {},
+    "full_row_duplicate_count": 0,
+    "negative_value_counts": {},
+    "timestamp_ranges": {},
+    "geo_ranges": {}
+  }
+]

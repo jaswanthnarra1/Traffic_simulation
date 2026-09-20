@@ -1,0 +1,2207 @@
+{
+  "column_profile": {
+    "context_train.csv": {
+      "rows": 4320,
+      "columns": {
+        "timestamp": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 4320
+        },
+        "temperature_c": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 981,
+          "min": 18.64,
+          "max": 31.57,
+          "mean": 25.633791666666696,
+          "median": 25.61,
+          "stddev": 3.1050150627542186
+        },
+        "rain_intensity": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "min": 0.0,
+          "max": 0.484,
+          "mean": 0.009680555555555576,
+          "median": 0.0,
+          "stddev": 0.06752635830813049
+        },
+        "event_level": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "min": 0,
+          "max": 3,
+          "mean": 0.008564814814814815,
+          "median": 0.0,
+          "stddev": 0.14960062717412517
+        },
+        "event_id": {
+          "type": "VARCHAR",
+          "nulls": 4303,
+          "null_pct": 99.6065,
+          "distinct": 2,
+          "values": [
+            "EVT_101_01",
+            "EVT_101_02",
+            "None"
+          ]
+        },
+        "holiday_flag": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 2,
+          "min": 0,
+          "max": 1,
+          "mean": 0.26666666666666666,
+          "median": 0.0,
+          "stddev": 0.44221663871405364
+        },
+        "day_of_week": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 7,
+          "min": 0,
+          "max": 6,
+          "mean": 3.0,
+          "median": 3.0,
+          "stddev": 1.9321835661585922
+        },
+        "hour": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 288,
+          "min": 0.0,
+          "max": 23.92,
+          "mean": 11.958333333333334,
+          "median": 11.96,
+          "stddev": 6.928175365050218
+        }
+      }
+    },
+    "context_validation.csv": {
+      "rows": 1152,
+      "columns": {
+        "timestamp": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 1152
+        },
+        "temperature_c": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 454,
+          "min": 19.87,
+          "max": 31.17,
+          "mean": 25.00765625000001,
+          "median": 25.03,
+          "stddev": 3.1094616294290405
+        },
+        "rain_intensity": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "min": 0.0,
+          "max": 0.651,
+          "mean": 0.04299305555555563,
+          "median": 0.0,
+          "stddev": 0.14175052035607902
+        },
+        "event_level": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 2,
+          "min": 0,
+          "max": 2,
+          "mean": 0.07465277777777778,
+          "median": 0.0,
+          "stddev": 0.379120717352161
+        },
+        "event_id": {
+          "type": "VARCHAR",
+          "nulls": 1109,
+          "null_pct": 96.2674,
+          "distinct": 2,
+          "values": [
+            "EVT_202_01",
+            "EVT_202_02",
+            "None"
+          ]
+        },
+        "holiday_flag": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 2,
+          "min": 0,
+          "max": 1,
+          "mean": 0.5,
+          "median": 0.5,
+          "stddev": 0.5000000000000001
+        },
+        "day_of_week": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 4,
+          "min": 0,
+          "max": 6,
+          "mean": 3.75,
+          "median": 4.5,
+          "stddev": 2.2776083947860744
+        },
+        "hour": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 288,
+          "min": 0.0,
+          "max": 23.92,
+          "mean": 11.958333333333334,
+          "median": 11.96,
+          "stddev": 6.928175365050231
+        }
+      }
+    },
+    "forecast_targets_train.csv": {
+      "rows": 366240,
+      "columns": {
+        "timestamp": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 840
+        },
+        "segment_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 436
+        },
+        "target_speed_15m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3920,
+          "min": 8.38,
+          "max": 60.0,
+          "mean": 43.5044836719124,
+          "median": 39.99,
+          "stddev": 11.194490778931895
+        },
+        "target_flow_15m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 28614,
+          "min": 0.0,
+          "max": 4502.2,
+          "mean": 802.453642966359,
+          "median": 668.6,
+          "stddev": 565.9977213636034
+        },
+        "target_congestion_15m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3113,
+          "min": 0.0,
+          "max": 0.7206,
+          "mean": 0.02476188018785519,
+          "median": 0.009,
+          "stddev": 0.040582502312743206
+        },
+        "target_speed_30m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3936,
+          "min": 8.39,
+          "max": 60.0,
+          "mean": 43.50778344801506,
+          "median": 39.99,
+          "stddev": 11.192759414493816
+        },
+        "target_flow_30m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 28561,
+          "min": 0.0,
+          "max": 4502.2,
+          "mean": 802.2228355722973,
+          "median": 668.5,
+          "stddev": 564.5183537152051
+        },
+        "target_congestion_30m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3079,
+          "min": 0.0,
+          "max": 0.7205,
+          "mean": 0.024675006006990345,
+          "median": 0.009,
+          "stddev": 0.040434308229870194
+        },
+        "target_speed_45m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3924,
+          "min": 8.38,
+          "max": 60.0,
+          "mean": 43.50617005242753,
+          "median": 39.99,
+          "stddev": 11.19599064861576
+        },
+        "target_flow_45m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 28553,
+          "min": 0.0,
+          "max": 4502.2,
+          "mean": 802.8377965268711,
+          "median": 669.0,
+          "stddev": 565.2210104468923
+        },
+        "target_congestion_45m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3083,
+          "min": 0.0,
+          "max": 0.7206,
+          "mean": 0.024723751365225102,
+          "median": 0.009,
+          "stddev": 0.04067144511442275
+        },
+        "target_speed_60m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3914,
+          "min": 8.38,
+          "max": 60.0,
+          "mean": 43.511690448889134,
+          "median": 39.99,
+          "stddev": 11.191949715689738
+        },
+        "target_flow_60m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 28541,
+          "min": 0.0,
+          "max": 4502.2,
+          "mean": 802.4269954128481,
+          "median": 668.7,
+          "stddev": 564.7696815680661
+        },
+        "target_congestion_60m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3108,
+          "min": 0.0,
+          "max": 0.7206,
+          "mean": 0.024582620412844286,
+          "median": 0.0089,
+          "stddev": 0.04027710534553425
+        }
+      }
+    },
+    "forecast_targets_validation.csv": {
+      "rows": 481344,
+      "columns": {
+        "timestamp": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 1104
+        },
+        "segment_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 436
+        },
+        "target_speed_15m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 4046,
+          "min": 11.19,
+          "max": 60.0,
+          "mean": 43.31250795689058,
+          "median": 39.99,
+          "stddev": 11.191213805335261
+        },
+        "target_flow_15m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 29043,
+          "min": 0.0,
+          "max": 4502.2,
+          "mean": 772.7226226981066,
+          "median": 640.1,
+          "stddev": 550.1765073480012
+        },
+        "target_congestion_15m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3504,
+          "min": 0.0,
+          "max": 0.7212,
+          "mean": 0.028975584405333592,
+          "median": 0.0089,
+          "stddev": 0.047440669328902146
+        },
+        "target_speed_30m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 4046,
+          "min": 11.19,
+          "max": 60.0,
+          "mean": 43.312316306012995,
+          "median": 39.99,
+          "stddev": 11.19119551930655
+        },
+        "target_flow_30m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 29042,
+          "min": 0.0,
+          "max": 4502.2,
+          "mean": 772.9981784337159,
+          "median": 640.4,
+          "stddev": 550.0570162900748
+        },
+        "target_congestion_30m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3504,
+          "min": 0.0,
+          "max": 0.7212,
+          "mean": 0.028980156810931343,
+          "median": 0.0089,
+          "stddev": 0.04743853964059826
+        },
+        "target_speed_45m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 4046,
+          "min": 11.19,
+          "max": 60.0,
+          "mean": 43.312287657063344,
+          "median": 39.99,
+          "stddev": 11.191221862615556
+        },
+        "target_flow_45m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 29042,
+          "min": 0.0,
+          "max": 4502.2,
+          "mean": 773.0961624119103,
+          "median": 640.4,
+          "stddev": 550.0007859806072
+        },
+        "target_congestion_45m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3504,
+          "min": 0.0,
+          "max": 0.7212,
+          "mean": 0.028981081513431085,
+          "median": 0.0089,
+          "stddev": 0.04743787727507622
+        },
+        "target_speed_60m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 4046,
+          "min": 11.19,
+          "max": 60.0,
+          "mean": 43.312149211377985,
+          "median": 39.99,
+          "stddev": 11.191205215464667
+        },
+        "target_flow_60m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 29042,
+          "min": 0.0,
+          "max": 4502.2,
+          "mean": 773.2398847809444,
+          "median": 640.5,
+          "stddev": 549.947633318293
+        },
+        "target_congestion_60m": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3504,
+          "min": 0.0,
+          "max": 0.7212,
+          "mean": 0.028984316414042754,
+          "median": 0.0089,
+          "stddev": 0.04743737855008104
+        }
+      }
+    },
+    "incidents_train.csv": {
+      "rows": 49,
+      "columns": {
+        "incident_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 49
+        },
+        "start_time": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 49
+        },
+        "end_time": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 49
+        },
+        "segment_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 46
+        },
+        "incident_type": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 5,
+          "values": [
+            "accident_like",
+            "demand_surge",
+            "lane_blockage",
+            "road_closure",
+            "stalled_vehicle"
+          ]
+        },
+        "severity": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "min": 1,
+          "max": 3,
+          "mean": 1.653061224489796,
+          "median": 1.0,
+          "stddev": 0.7437088636036162
+        },
+        "lanes_blocked": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 2,
+          "min": 1,
+          "max": 2,
+          "mean": 1.3877551020408163,
+          "median": 1.0,
+          "stddev": 0.4872382198495233
+        }
+      }
+    },
+    "incidents_validation.csv": {
+      "rows": 11,
+      "columns": {
+        "incident_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 11,
+          "values": [
+            "INC_601_00001",
+            "INC_601_00002",
+            "INC_601_00003",
+            "INC_601_00004",
+            "INC_601_00005",
+            "INC_601_00006",
+            "INC_601_00007",
+            "INC_601_00008",
+            "INC_601_00009",
+            "INC_601_00010",
+            "INC_601_00011"
+          ]
+        },
+        "start_time": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 11,
+          "values": [
+            "2026-01-16 13:13:00",
+            "2026-01-16 16:31:00",
+            "2026-01-17 18:29:00",
+            "2026-01-17 21:45:00",
+            "2026-01-18 09:44:00",
+            "2026-01-18 09:48:00",
+            "2026-01-18 10:22:00",
+            "2026-01-18 19:35:00",
+            "2026-01-19 09:53:00",
+            "2026-01-19 11:33:00",
+            "2026-01-19 16:36:00"
+          ]
+        },
+        "end_time": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 11,
+          "values": [
+            "2026-01-16 13:54:00",
+            "2026-01-16 17:17:00",
+            "2026-01-17 18:50:00",
+            "2026-01-17 21:58:00",
+            "2026-01-18 10:00:00",
+            "2026-01-18 10:04:00",
+            "2026-01-18 10:47:00",
+            "2026-01-18 20:12:00",
+            "2026-01-19 10:07:00",
+            "2026-01-19 12:32:00",
+            "2026-01-19 17:12:00"
+          ]
+        },
+        "segment_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 11,
+          "values": [
+            "R0006",
+            "R0078",
+            "R0125",
+            "R0168",
+            "R0176",
+            "R0295",
+            "R0344",
+            "R0360",
+            "R0375",
+            "R0384",
+            "R0394"
+          ]
+        },
+        "incident_type": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "values": [
+            "accident_like",
+            "lane_blockage",
+            "stalled_vehicle"
+          ]
+        },
+        "severity": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "min": 1,
+          "max": 3,
+          "mean": 2.090909090909091,
+          "median": 2.0,
+          "stddev": 0.668042657122685
+        },
+        "lanes_blocked": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 2,
+          "min": 1,
+          "max": 2,
+          "mean": 1.3636363636363635,
+          "median": 1.0,
+          "stddev": 0.48104569292083466
+        }
+      }
+    },
+    "network.csv": {
+      "rows": 436,
+      "columns": {
+        "segment_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 436
+        },
+        "source_node": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 120
+        },
+        "target_node": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 120
+        },
+        "road_class": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 2,
+          "values": [
+            "arterial",
+            "collector"
+          ]
+        },
+        "lanes": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "min": 1,
+          "max": 3,
+          "mean": 2.0642201834862384,
+          "median": 2.0,
+          "stddev": 0.6464473038514795
+        },
+        "free_flow_speed_kmh": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 4,
+          "min": 30.0,
+          "max": 60.0,
+          "mean": 44.58715596330275,
+          "median": 40.0,
+          "stddev": 11.234131323353584
+        },
+        "capacity_vph": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 6,
+          "min": 900.0,
+          "max": 3105.0,
+          "mean": 1972.3623853211009,
+          "median": 1800.0,
+          "stddev": 631.014485983417
+        },
+        "length_km": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 355,
+          "min": 0.751,
+          "max": 1.791,
+          "mean": 1.2666513761467904,
+          "median": 1.2465,
+          "stddev": 0.3021638590689893
+        },
+        "grade_pct": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 330,
+          "min": -3.96,
+          "max": 4.0,
+          "mean": -0.0669954128440367,
+          "median": -0.185,
+          "stddev": 2.3456697191146967
+        },
+        "signal_id": {
+          "type": "VARCHAR",
+          "nulls": 111,
+          "null_pct": 25.4587,
+          "distinct": 89
+        },
+        "structural_bottleneck": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 2,
+          "min": 0,
+          "max": 1,
+          "mean": 0.03669724770642202,
+          "median": 0.0,
+          "stddev": 0.18801744524696512
+        },
+        "importance": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 436,
+          "min": 0.5629345078940322,
+          "max": 1.434661482317134,
+          "mean": 0.9067633267497222,
+          "median": 0.819982561827629,
+          "stddev": 0.2529526737728748
+        },
+        "peak_capacity_factor": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 2,
+          "min": 0.72,
+          "max": 1.0,
+          "mean": 0.9897247706422019,
+          "median": 1.0,
+          "stddev": 0.05264488466915028
+        }
+      }
+    },
+    "nodes.csv": {
+      "rows": 120,
+      "columns": {
+        "node_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 120
+        },
+        "x": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 12,
+          "min": 0,
+          "max": 11,
+          "mean": 5.5,
+          "median": 5.5,
+          "stddev": 3.452052529534663
+        },
+        "y": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 10,
+          "min": 0,
+          "max": 9,
+          "mean": 4.5,
+          "median": 4.5,
+          "stddev": 2.872281323269014
+        },
+        "lat": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 10,
+          "min": 17.3,
+          "max": 17.462,
+          "mean": 17.38099999999999,
+          "median": 17.381,
+          "stddev": 0.051701063818842236
+        },
+        "lon": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 12,
+          "min": 78.35,
+          "max": 78.548,
+          "mean": 78.44900000000004,
+          "median": 78.449,
+          "stddev": 0.06213694553162587
+        }
+      }
+    },
+    "od_demand_profiles.csv": {
+      "rows": 1500,
+      "columns": {
+        "od_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 1500
+        },
+        "origin_node": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 120
+        },
+        "destination_node": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 120
+        },
+        "base_demand_vph": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 434,
+          "min": 40,
+          "max": 499,
+          "mean": 267.67066666666665,
+          "median": 271.0,
+          "stddev": 132.00594256657106
+        },
+        "purpose": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 4,
+          "values": [
+            "commercial",
+            "commute",
+            "mixed",
+            "school"
+          ]
+        }
+      }
+    },
+    "planning_candidates.csv": {
+      "rows": 90,
+      "columns": {
+        "candidate_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 90
+        },
+        "target_segment": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 90
+        },
+        "intervention_type": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 5,
+          "values": [
+            "capacity_upgrade",
+            "connector",
+            "lane_addition",
+            "signal_retiming",
+            "turn_lane"
+          ]
+        },
+        "capacity_delta_vph": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 5,
+          "min": 250,
+          "max": 900,
+          "mean": 599.4444444444445,
+          "median": 500.0,
+          "stddev": 225.64653337618844
+        },
+        "cost_index": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 5,
+          "min": 2,
+          "max": 18,
+          "mean": 9.411111111111111,
+          "median": 8.0,
+          "stddev": 5.337278633337081
+        },
+        "feasibility_band": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "values": [
+            "high",
+            "low",
+            "medium"
+          ]
+        }
+      }
+    },
+    "roadworks_train.csv": {
+      "rows": 8,
+      "columns": {
+        "work_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 8,
+          "values": [
+            "RW_801_001",
+            "RW_801_002",
+            "RW_801_003",
+            "RW_801_004",
+            "RW_801_005",
+            "RW_801_006",
+            "RW_801_007",
+            "RW_801_008"
+          ]
+        },
+        "segment_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 8,
+          "values": [
+            "R0045",
+            "R0168",
+            "R0186",
+            "R0211",
+            "R0212",
+            "R0336",
+            "R0353",
+            "R0392"
+          ]
+        },
+        "start_time": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 8,
+          "values": [
+            "2026-01-02 08:00:00",
+            "2026-01-03 10:00:00",
+            "2026-01-04 08:00:00",
+            "2026-01-04 12:00:00",
+            "2026-01-05 17:00:00",
+            "2026-01-08 09:00:00",
+            "2026-01-09 17:00:00",
+            "2026-01-12 10:00:00"
+          ]
+        },
+        "end_time": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 8,
+          "values": [
+            "2026-01-02 12:59:00",
+            "2026-01-03 15:33:00",
+            "2026-01-04 12:46:00",
+            "2026-01-04 16:10:00",
+            "2026-01-05 20:56:00",
+            "2026-01-08 19:59:00",
+            "2026-01-09 21:36:00",
+            "2026-01-12 19:42:00"
+          ]
+        },
+        "closure_fraction": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 7,
+          "min": 0.24,
+          "max": 0.65,
+          "mean": 0.43124999999999997,
+          "median": 0.395,
+          "stddev": 0.1313808871183324
+        },
+        "work_type": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "values": [
+            "lane_maintenance",
+            "resurfacing",
+            "utility_work"
+          ]
+        }
+      }
+    },
+    "roadworks_validation.csv": {
+      "rows": 3,
+      "columns": {
+        "work_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "values": [
+            "RW_802_001",
+            "RW_802_002",
+            "RW_802_003"
+          ]
+        },
+        "segment_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "values": [
+            "R0052",
+            "R0171",
+            "R0231"
+          ]
+        },
+        "start_time": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "values": [
+            "2026-01-16 12:00:00",
+            "2026-01-18 14:00:00",
+            "2026-01-18 15:00:00"
+          ]
+        },
+        "end_time": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "values": [
+            "2026-01-16 18:49:00",
+            "2026-01-18 20:05:00",
+            "2026-01-19 00:50:00"
+          ]
+        },
+        "closure_fraction": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "min": 0.25,
+          "max": 0.54,
+          "mean": 0.3766666666666667,
+          "median": 0.34,
+          "stddev": 0.12119772641798561
+        },
+        "work_type": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 1,
+          "values": [
+            "lane_maintenance"
+          ]
+        }
+      }
+    },
+    "scenario_examples.csv": {
+      "rows": 30,
+      "columns": {
+        "scenario_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 30
+        },
+        "scenario_type": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 1,
+          "values": [
+            "incident"
+          ]
+        },
+        "start_time": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 30
+        },
+        "end_time": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 30
+        },
+        "target_segment": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 29
+        },
+        "incident_type": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 5,
+          "values": [
+            "accident_like",
+            "demand_surge",
+            "lane_blockage",
+            "road_closure",
+            "stalled_vehicle"
+          ]
+        },
+        "severity": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "min": 1,
+          "max": 3,
+          "mean": 1.6333333333333333,
+          "median": 1.5,
+          "stddev": 0.706320670013903
+        },
+        "candidate_interventions": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 1,
+          "values": [
+            "Use planning_candidates.csv; evaluate baseline vs counterfactual"
+          ]
+        }
+      }
+    },
+    "signal_plans.csv": {
+      "rows": 89,
+      "columns": {
+        "signal_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 89
+        },
+        "node_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 89
+        },
+        "cycle_s": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 4,
+          "min": 90,
+          "max": 120,
+          "mean": 104.6067415730337,
+          "median": 100.0,
+          "stddev": 10.919128641129298
+        },
+        "green_ratio": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 73,
+          "min": 0.421,
+          "max": 0.619,
+          "mean": 0.5147528089887641,
+          "median": 0.508,
+          "stddev": 0.05634031444210642
+        },
+        "offset_s": {
+          "type": "BIGINT",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 57,
+          "min": 0,
+          "max": 87,
+          "mean": 42.69662921348315,
+          "median": 41.0,
+          "stddev": 25.950430056137268
+        }
+      }
+    },
+    "traffic_train.csv": {
+      "rows": 1883520,
+      "columns": {
+        "timestamp": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 4320
+        },
+        "segment_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 436
+        },
+        "source_node": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 120
+        },
+        "target_node": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 120
+        },
+        "speed_kmh": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 4150,
+          "min": 8.38,
+          "max": 60.0,
+          "mean": 43.53412186227624,
+          "median": 39.99,
+          "stddev": 11.195420517772739
+        },
+        "flow_vph": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 35991,
+          "min": 0.0,
+          "max": 4502.2,
+          "mean": 791.4469001656494,
+          "median": 657.2,
+          "stddev": 562.9739632113811
+        },
+        "occupancy_pct": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 8932,
+          "min": 7.0,
+          "max": 98.0,
+          "mean": 32.788626412249506,
+          "median": 30.35,
+          "stddev": 14.582156340735054
+        },
+        "travel_time_min": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 4201,
+          "min": 0.774,
+          "max": 10.842,
+          "mean": 1.8746486020854445,
+          "median": 1.745,
+          "stddev": 0.6960950181249043
+        },
+        "free_flow_time_min": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 392,
+          "min": 0.774,
+          "max": 3.582,
+          "mean": 1.824766055045757,
+          "median": 1.697,
+          "stddev": 0.6669266360929885
+        },
+        "delay_min": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 1887,
+          "min": 0.0,
+          "max": 7.808,
+          "mean": 0.049872396364282624,
+          "median": 0.014,
+          "stddev": 0.10775451034592234
+        },
+        "queue_length_veh": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 5849,
+          "min": 0.0,
+          "max": 1603.3,
+          "mean": 2.981655198776758,
+          "median": 0.0,
+          "stddev": 32.97434087147079
+        },
+        "congestion_index": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3737,
+          "min": 0.0,
+          "max": 0.7206,
+          "mean": 0.02407645944827062,
+          "median": 0.0085,
+          "stddev": 0.04010857894167389
+        },
+        "sensor_quality": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 1,
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "stddev": 0.0
+        }
+      }
+    },
+    "traffic_validation.csv": {
+      "rows": 502272,
+      "columns": {
+        "timestamp": {
+          "type": "TIMESTAMP",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 1152
+        },
+        "segment_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 436
+        },
+        "source_node": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 120
+        },
+        "target_node": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 120
+        },
+        "speed_kmh": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 4046,
+          "min": 11.19,
+          "max": 60.0,
+          "mean": 43.35992979899684,
+          "median": 39.99,
+          "stddev": 11.19453890359513
+        },
+        "flow_vph": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 29045,
+          "min": 0.0,
+          "max": 4502.2,
+          "mean": 757.7240943154318,
+          "median": 624.7,
+          "stddev": 546.3943746942771
+        },
+        "occupancy_pct": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 8617,
+          "min": 7.0,
+          "max": 98.0,
+          "mean": 32.012052573107724,
+          "median": 29.51,
+          "stddev": 14.312274488372381
+        },
+        "travel_time_min": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3831,
+          "min": 0.774,
+          "max": 6.736,
+          "mean": 1.8834168199700585,
+          "median": 1.753,
+          "stddev": 0.7018583531097315
+        },
+        "free_flow_time_min": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 392,
+          "min": 0.774,
+          "max": 3.582,
+          "mean": 1.8247660550458873,
+          "median": 1.697,
+          "stddev": 0.6669266360929867
+        },
+        "delay_min": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 1512,
+          "min": 0.0,
+          "max": 4.129,
+          "mean": 0.05864038807659166,
+          "median": 0.014,
+          "stddev": 0.12519671106713462
+        },
+        "queue_length_veh": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 4027,
+          "min": 0.0,
+          "max": 1085.8,
+          "mean": 4.240973217698779,
+          "median": 0.0,
+          "stddev": 46.10860493567527
+        },
+        "congestion_index": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3504,
+          "min": 0.0,
+          "max": 0.7212,
+          "mean": 0.02789871603434124,
+          "median": 0.0082,
+          "stddev": 0.04674461059157071
+        },
+        "sensor_quality": {
+          "type": "DOUBLE",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 1,
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "stddev": 0.0
+        }
+      }
+    },
+    "turn_restrictions.csv": {
+      "rows": 61,
+      "columns": {
+        "node_id": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 61
+        },
+        "from_segment": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 61
+        },
+        "to_segment": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 61
+        },
+        "restriction": {
+          "type": "VARCHAR",
+          "nulls": 0,
+          "null_pct": 0.0,
+          "distinct": 3,
+          "values": [
+            "no_left",
+            "no_turn",
+            "time_window"
+          ]
+        }
+      }
+    }
+  },
+  "forecast_target_verification": {
+    "train": {
+      "+15m": {
+        "joined_rows": 366240,
+        "exact_match_count": 366240,
+        "mean_abs_diff": 0.0,
+        "max_abs_diff": 0.0
+      },
+      "+30m": {
+        "joined_rows": 366240,
+        "exact_match_count": 366240,
+        "mean_abs_diff": 0.0,
+        "max_abs_diff": 0.0
+      },
+      "+45m": {
+        "joined_rows": 366240,
+        "exact_match_count": 366240,
+        "mean_abs_diff": 0.0,
+        "max_abs_diff": 0.0
+      },
+      "+60m": {
+        "joined_rows": 366240,
+        "exact_match_count": 366240,
+        "mean_abs_diff": 0.0,
+        "max_abs_diff": 0.0
+      },
+      "total_forecast_rows": 366240
+    },
+    "validation": {
+      "+15m": {
+        "joined_rows": 481344,
+        "exact_match_count": 481344,
+        "mean_abs_diff": 0.0,
+        "max_abs_diff": 0.0
+      },
+      "+30m": {
+        "joined_rows": 481344,
+        "exact_match_count": 481344,
+        "mean_abs_diff": 0.0,
+        "max_abs_diff": 0.0
+      },
+      "+45m": {
+        "joined_rows": 481344,
+        "exact_match_count": 481344,
+        "mean_abs_diff": 0.0,
+        "max_abs_diff": 0.0
+      },
+      "+60m": {
+        "joined_rows": 481344,
+        "exact_match_count": 481344,
+        "mean_abs_diff": 0.0,
+        "max_abs_diff": 0.0
+      },
+      "total_forecast_rows": 481344
+    }
+  },
+  "timestamp_audit": {
+    "traffic_train.csv": {
+      "min": "2026-01-01 00:00:00",
+      "max": "2026-01-15 23:55:00",
+      "distinct_timestamps": 4320,
+      "top_gaps_seconds": [
+        [
+          300,
+          4319
+        ]
+      ]
+    },
+    "traffic_validation.csv": {
+      "min": "2026-01-16 00:00:00",
+      "max": "2026-01-19 23:55:00",
+      "distinct_timestamps": 1152,
+      "top_gaps_seconds": [
+        [
+          300,
+          1151
+        ]
+      ]
+    },
+    "context_train.csv": {
+      "min": "2026-01-01 00:00:00",
+      "max": "2026-01-15 23:55:00",
+      "distinct_timestamps": 4320,
+      "top_gaps_seconds": [
+        [
+          300,
+          4319
+        ]
+      ]
+    },
+    "context_validation.csv": {
+      "min": "2026-01-16 00:00:00",
+      "max": "2026-01-19 23:55:00",
+      "distinct_timestamps": 1152,
+      "top_gaps_seconds": [
+        [
+          300,
+          1151
+        ]
+      ]
+    },
+    "forecast_targets_train.csv": {
+      "distinct_timestamps": 840,
+      "top_gaps_seconds": [
+        [
+          1500,
+          825
+        ],
+        [
+          3900,
+          14
+        ]
+      ]
+    },
+    "forecast_targets_validation.csv": {
+      "distinct_timestamps": 1104,
+      "top_gaps_seconds": [
+        [
+          300,
+          1100
+        ],
+        [
+          3900,
+          3
+        ]
+      ]
+    },
+    "traffic_train.csv_segment_completeness_violations": 0,
+    "traffic_validation.csv_segment_completeness_violations": 0
+  },
+  "incident_audit": {
+    "train": {
+      "n": 49,
+      "types": [
+        [
+          "lane_blockage",
+          15
+        ],
+        [
+          "accident_like",
+          14
+        ],
+        [
+          "stalled_vehicle",
+          12
+        ],
+        [
+          "demand_surge",
+          4
+        ],
+        [
+          "road_closure",
+          4
+        ]
+      ],
+      "severity_dist": [
+        [
+          1,
+          25
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "duration_min_avg_min_max": [
+        30.979591836734695,
+        10,
+        63
+      ],
+      "distinct_segments": 46
+    },
+    "validation": {
+      "n": 11,
+      "types": [
+        [
+          "lane_blockage",
+          7
+        ],
+        [
+          "accident_like",
+          3
+        ],
+        [
+          "stalled_vehicle",
+          1
+        ]
+      ],
+      "severity_dist": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "duration_min_avg_min_max": [
+        29.454545454545453,
+        13,
+        59
+      ],
+      "distinct_segments": 11
+    },
+    "train_validation_segment_overlap_count": 0,
+    "validation_incident_types_unseen_in_train": [],
+    "incidents_overlapping_roadworks_train": 0
+  },
+  "scenario_audit": {
+    "n": 30,
+    "types": [
+      [
+        "incident",
+        30
+      ]
+    ],
+    "incident_types": [
+      [
+        "accident_like",
+        10
+      ],
+      [
+        "stalled_vehicle",
+        9
+      ],
+      [
+        "lane_blockage",
+        8
+      ],
+      [
+        "road_closure",
+        2
+      ],
+      [
+        "demand_surge",
+        1
+      ]
+    ],
+    "severity_dist": [
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "duration_avg_min": 32.36666666666667,
+    "exact_match_to_incidents_train": 30,
+    "total_scenarios": 30,
+    "scenarios_on_structural_bottleneck_segment": 2,
+    "scenarios_with_direct_planning_candidate": 8
+  },
+  "network_audit": {
+    "segments": 436,
+    "nodes": 120,
+    "self_loops": 0,
+    "duplicate_directed_edges": 0,
+    "reciprocal_edge_pairs": 218,
+    "road_class_dist": [
+      [
+        "arterial",
+        182
+      ],
+      [
+        "collector",
+        254
+      ]
+    ],
+    "lanes_dist": [
+      [
+        1,
+        78
+      ],
+      [
+        2,
+        252
+      ],
+      [
+        3,
+        106
+      ]
+    ],
+    "free_flow_speed_kmh": {
+      "min": 30.0,
+      "max": 60.0,
+      "mean": 44.58715596330275,
+      "median": 40.0,
+      "stddev": 11.234131323353584,
+      "distinct": 4,
+      "nulls": 0
+    },
+    "capacity_vph": {
+      "min": 900.0,
+      "max": 3105.0,
+      "mean": 1972.3623853211009,
+      "median": 1800.0,
+      "stddev": 631.014485983417,
+      "distinct": 6,
+      "nulls": 0
+    },
+    "length_km": {
+      "min": 0.751,
+      "max": 1.791,
+      "mean": 1.2666513761467904,
+      "median": 1.2465,
+      "stddev": 0.3021638590689893,
+      "distinct": 355,
+      "nulls": 0
+    },
+    "grade_pct": {
+      "min": -3.96,
+      "max": 4.0,
+      "mean": -0.0669954128440367,
+      "median": -0.185,
+      "stddev": 2.3456697191146967,
+      "distinct": 330,
+      "nulls": 0
+    },
+    "importance": {
+      "min": 0.5629345078940322,
+      "max": 1.434661482317134,
+      "mean": 0.9067633267497222,
+      "median": 0.819982561827629,
+      "stddev": 0.2529526737728748,
+      "distinct": 436,
+      "nulls": 0
+    },
+    "peak_capacity_factor": {
+      "min": 0.72,
+      "max": 1.0,
+      "mean": 0.9897247706422019,
+      "median": 1.0,
+      "stddev": 0.05264488466915028,
+      "distinct": 2,
+      "nulls": 0
+    },
+    "out_degree_dist": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        36
+      ],
+      [
+        4,
+        80
+      ]
+    ],
+    "in_degree_dist": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        36
+      ],
+      [
+        4,
+        80
+      ]
+    ],
+    "isolated_nodes": 0
+  },
+  "bottleneck_audit": {
+    "count": 16,
+    "road_class_dist": [
+      [
+        "arterial",
+        16
+      ]
+    ],
+    "capacity_stats": [
+      2005.3125,
+      1035.0,
+      3105.0
+    ],
+    "importance_stats": [
+      1.1466846574518037,
+      0.9386084708975924,
+      1.4261256929459745
+    ],
+    "non_bottleneck_importance_avg": 0.8976234665324998,
+    "avg_congestion_index_bottleneck_train": 0.03332030092592596,
+    "avg_congestion_index_nonbottleneck_train": 0.023724313106264792,
+    "bottleneck_segments_with_direct_candidate": 3
+  },
+  "signal_audit": {
+    "n_signal_plans": 89,
+    "n_signalized_segments": 325,
+    "n_distinct_signal_ids_in_network": 89,
+    "signal_plans_unused_by_network": 0,
+    "cycle_s": {
+      "min": 90,
+      "max": 120,
+      "mean": 104.6067415730337,
+      "median": 100.0,
+      "stddev": 10.919128641129298,
+      "distinct": 4,
+      "nulls": 0
+    },
+    "green_ratio": {
+      "min": 0.421,
+      "max": 0.619,
+      "mean": 0.5147528089887641,
+      "median": 0.508,
+      "stddev": 0.05634031444210642,
+      "distinct": 73,
+      "nulls": 0
+    },
+    "offset_s": {
+      "min": 0,
+      "max": 87,
+      "mean": 42.69662921348315,
+      "median": 41.0,
+      "stddev": 25.950430056137268,
+      "distinct": 57,
+      "nulls": 0
+    }
+  },
+  "turn_restriction_audit": {
+    "n": 61,
+    "types": [
+      [
+        "no_turn",
+        18
+      ],
+      [
+        "no_left",
+        20
+      ],
+      [
+        "time_window",
+        23
+      ]
+    ],
+    "from_segment_orphans": 0,
+    "to_segment_orphans": 0
+  },
+  "od_audit": {
+    "n_pairs": 1500,
+    "distinct_origins": 120,
+    "distinct_destinations": 120,
+    "total_demand_vph": 401506,
+    "purpose_dist": [
+      [
+        "commercial",
+        384,
+        104712
+      ],
+      [
+        "commute",
+        384,
+        104438
+      ],
+      [
+        "school",
+        377,
+        100364
+      ],
+      [
+        "mixed",
+        355,
+        91992
+      ]
+    ],
+    "demand_stats": {
+      "min": 40,
+      "max": 499,
+      "mean": 267.67066666666665,
+      "median": 271.0,
+      "stddev": 132.00594256657106,
+      "distinct": 434,
+      "nulls": 0
+    },
+    "self_pairs (origin=destination)": 0
+  },
+  "planning_candidate_audit": {
+    "n": 90,
+    "intervention_type_dist": [
+      [
+        "lane_addition",
+        24
+      ],
+      [
+        "capacity_upgrade",
+        19
+      ],
+      [
+        "connector",
+        18
+      ],
+      [
+        "turn_lane",
+        15
+      ],
+      [
+        "signal_retiming",
+        14
+      ]
+    ],
+    "feasibility_band_dist": [
+      [
+        "medium",
+        43
+      ],
+      [
+        "high",
+        18
+      ],
+      [
+        "low",
+        29
+      ]
+    ],
+    "capacity_delta_stats": {
+      "min": 250,
+      "max": 900,
+      "mean": 599.4444444444445,
+      "median": 500.0,
+      "stddev": 225.64653337618844,
+      "distinct": 5,
+      "nulls": 0
+    },
+    "cost_index_stats": {
+      "min": 2,
+      "max": 18,
+      "mean": 9.411111111111111,
+      "median": 8.0,
+      "stddev": 5.337278633337081,
+      "distinct": 5,
+      "nulls": 0
+    },
+    "distinct_target_segments": 90,
+    "segments_with_multiple_candidates": 0
+  },
+  "context_audit": {
+    "train": {
+      "temperature": {
+        "min": 18.64,
+        "max": 31.57,
+        "mean": 25.633791666666696,
+        "median": 25.61,
+        "stddev": 3.1050150627542186,
+        "distinct": 981,
+        "nulls": 0
+      },
+      "rain_intensity": {
+        "min": 0.0,
+        "max": 0.484,
+        "mean": 0.009680555555555576,
+        "median": 0.0,
+        "stddev": 0.06752635830813049,
+        "distinct": 3,
+        "nulls": 0
+      },
+      "holiday_flag_dist": [
+        [
+          0,
+          3168
+        ],
+        [
+          1,
+          1152
+        ]
+      ],
+      "event_level_dist": [
+        [
+          0,
+          4303
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          10
+        ]
+      ],
+      "distinct_event_ids": 2
+    },
+    "validation": {
+      "temperature": {
+        "min": 19.87,
+        "max": 31.17,
+        "mean": 25.00765625000001,
+        "median": 25.03,
+        "stddev": 3.1094616294290405,
+        "distinct": 454,
+        "nulls": 0
+      },
+      "rain_intensity": {
+        "min": 0.0,
+        "max": 0.651,
+        "mean": 0.04299305555555563,
+        "median": 0.0,
+        "stddev": 0.14175052035607902,
+        "distinct": 3,
+        "nulls": 0
+      },
+      "holiday_flag_dist": [
+        [
+          0,
+          576
+        ],
+        [
+          1,
+          576
+        ]
+      ],
+      "event_level_dist": [
+        [
+          0,
+          1109
+        ],
+        [
+          2,
+          43
+        ]
+      ],
+      "distinct_event_ids": 2
+    }
+  },
+  "roadwork_audit": {
+    "train": {
+      "n": 8,
+      "types": [
+        [
+          "lane_maintenance",
+          4
+        ],
+        [
+          "resurfacing",
+          1
+        ],
+        [
+          "utility_work",
+          3
+        ]
+      ],
+      "closure_fraction_stats": {
+        "min": 0.24,
+        "max": 0.65,
+        "mean": 0.43124999999999997,
+        "median": 0.395,
+        "stddev": 0.1313808871183324,
+        "distinct": 7,
+        "nulls": 0
+      },
+      "duration_min_avg": 365.125
+    },
+    "validation": {
+      "n": 3,
+      "types": [
+        [
+          "lane_maintenance",
+          3
+        ]
+      ],
+      "closure_fraction_stats": {
+        "min": 0.25,
+        "max": 0.54,
+        "mean": 0.3766666666666667,
+        "median": 0.34,
+        "stddev": 0.12119772641798561,
+        "distinct": 3,
+        "nulls": 0
+      },
+      "duration_min_avg": 454.6666666666667
+    }
+  }
+}

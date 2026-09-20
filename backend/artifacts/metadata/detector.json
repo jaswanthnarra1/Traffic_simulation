@@ -1,0 +1,35 @@
+{
+  "variant": "drop_epicentre",
+  "threshold": 0.3413242804449659,
+  "selection": "max slot-level F1 on incidents_train",
+  "train_results": {
+    "z_composite": {
+      "threshold": 23.206699511527837,
+      "precision": 0.8947368421052632,
+      "recall": 0.2715654952076677,
+      "f1": 0.41666666666666663,
+      "tp": 85,
+      "fp": 10,
+      "fn": 228
+    },
+    "drop": {
+      "threshold": 0.3527571394753481,
+      "precision": 0.27842003853564545,
+      "recall": 0.9233226837060703,
+      "f1": 0.4278312361213916,
+      "tp": 289,
+      "fp": 749,
+      "fn": 24
+    },
+    "drop_epicentre": {
+      "threshold": 0.3413242804449659,
+      "precision": 0.7188264058679706,
+      "recall": 0.939297124600639,
+      "f1": 0.8144044321329639,
+      "tp": 294,
+      "fp": 115,
+      "fn": 19
+    }
+  },
+  "positive_definition": "slot within [ceil5(start_time), end_time] of a labelled incident on that segment"
+}

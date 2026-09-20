@@ -1,0 +1,136 @@
+{
+  "ground_truth_available": false,
+  "checks": {
+    "all_assigned_paths_respect_turn_restrictions": true,
+    "incident_increases_network_delay_share": 1.0,
+    "conservation": "each OD's demand is loaded on exactly one connected path per iteration (enforced; disconnection raises)"
+  },
+  "baseline_fit": [
+    {
+      "time": "2026-01-16 08:00",
+      "demand_scale": 0.1955,
+      "raw_assignment_flow_correlation_vs_observed": 0.17973074178189216,
+      "relative_gap": 0.0014885962132529173,
+      "over_capacity_links_raw_assignment": 133,
+      "over_capacity_links_observed": 20
+    },
+    {
+      "time": "2026-01-16 13:00",
+      "demand_scale": 0.121,
+      "raw_assignment_flow_correlation_vs_observed": 0.1036689570195996,
+      "relative_gap": 0.0002394682331312462,
+      "over_capacity_links_raw_assignment": 52,
+      "over_capacity_links_observed": 0
+    },
+    {
+      "time": "2026-01-17 18:00",
+      "demand_scale": 0.1748,
+      "raw_assignment_flow_correlation_vs_observed": 0.12312607959304994,
+      "relative_gap": 0.0012813792238316947,
+      "over_capacity_links_raw_assignment": 106,
+      "over_capacity_links_observed": 5
+    }
+  ],
+  "scenario_deltas": [
+    {
+      "incident_segment": "R0360",
+      "time": "2026-01-16 13:15:00",
+      "capacity_reduction": 0.33,
+      "incident_delay_change_pct": 0.064,
+      "within_solver_tolerance": true,
+      "segments_worsened": 0,
+      "direct_candidate": false
+    },
+    {
+      "incident_segment": "R0384",
+      "time": "2026-01-16 16:35:00",
+      "capacity_reduction": 0.33,
+      "incident_delay_change_pct": 0.265,
+      "within_solver_tolerance": true,
+      "segments_worsened": 10,
+      "direct_candidate": true
+    },
+    {
+      "incident_segment": "R0375",
+      "time": "2026-01-17 21:45:00",
+      "capacity_reduction": 0.33,
+      "incident_delay_change_pct": 0.01,
+      "within_solver_tolerance": true,
+      "segments_worsened": 0,
+      "direct_candidate": false
+    },
+    {
+      "incident_segment": "R0168",
+      "time": "2026-01-17 18:30:00",
+      "capacity_reduction": 0.33,
+      "incident_delay_change_pct": 0.091,
+      "within_solver_tolerance": true,
+      "segments_worsened": 0,
+      "direct_candidate": false
+    },
+    {
+      "incident_segment": "R0394",
+      "time": "2026-01-18 19:35:00",
+      "capacity_reduction": 0.33,
+      "incident_delay_change_pct": 0.105,
+      "within_solver_tolerance": true,
+      "segments_worsened": 1,
+      "direct_candidate": false
+    },
+    {
+      "incident_segment": "R0006",
+      "time": "2026-01-18 09:45:00",
+      "capacity_reduction": 0.5,
+      "incident_delay_change_pct": 0.095,
+      "within_solver_tolerance": true,
+      "segments_worsened": 1,
+      "direct_candidate": false
+    },
+    {
+      "incident_segment": "R0078",
+      "time": "2026-01-18 10:25:00",
+      "capacity_reduction": 0.33,
+      "incident_delay_change_pct": 0.017,
+      "within_solver_tolerance": true,
+      "segments_worsened": 0,
+      "direct_candidate": false
+    },
+    {
+      "incident_segment": "R0344",
+      "time": "2026-01-18 09:50:00",
+      "capacity_reduction": 0.5,
+      "incident_delay_change_pct": 0.278,
+      "within_solver_tolerance": true,
+      "segments_worsened": 4,
+      "direct_candidate": true
+    },
+    {
+      "incident_segment": "R0176",
+      "time": "2026-01-19 16:40:00",
+      "capacity_reduction": 0.2,
+      "incident_delay_change_pct": 0.696,
+      "within_solver_tolerance": true,
+      "segments_worsened": 20,
+      "direct_candidate": true
+    },
+    {
+      "incident_segment": "R0295",
+      "time": "2026-01-19 11:35:00",
+      "capacity_reduction": 0.5,
+      "incident_delay_change_pct": 0.1,
+      "within_solver_tolerance": false,
+      "segments_worsened": 2,
+      "direct_candidate": false
+    },
+    {
+      "incident_segment": "R0125",
+      "time": "2026-01-19 09:55:00",
+      "capacity_reduction": 0.2,
+      "incident_delay_change_pct": 0.171,
+      "within_solver_tolerance": true,
+      "segments_worsened": 3,
+      "direct_candidate": true
+    }
+  ],
+  "label": "SIMULATION ESTIMATE \u2014 not validated against intervention ground truth"
+}

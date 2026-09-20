@@ -1,0 +1,15 @@
+{
+  "_comment": "Every weight and threshold of the corridor analysis lives here (override the file with CORRIDOR_CONFIG_PATH). Weights need not sum to 1: components with no data are dropped and the rest are re-normalised. These are design choices, not fitted values: there is no labelled flyover ground truth in the dataset.",
+  "segment_length_m": 300,
+  "max_segments": 300,
+  "match_radius_m": 750,
+  "history": {"peak_hours": [7, 8, 9, 16, 17, 18, 19], "weekdays_only": true, "growth_window_days": 5, "min_days_full_confidence": 14, "congested_speed_ratio": 0.7},
+  "congestion_weights": {"utilization": 0.25, "speed_reduction": 0.20, "delay": 0.20, "junction_signal": 0.10, "persistence": 0.10, "current": 0.15},
+  "bottleneck_weights": {"utilization": 0.25, "speed_reduction": 0.20, "delay": 0.20, "junction_signal": 0.15, "persistence": 0.15, "throughput_ceiling": 0.15},
+  "bottleneck_levels": {"MODERATE": 25, "HIGH": 50, "CRITICAL": 75},
+  "suitability_weights": {"traffic_pressure": 0.20, "junction_bottleneck": 0.20, "delay": 0.15, "capacity_utilization": 0.20, "historical_growth": 0.10, "accident_risk": 0.15},
+  "suitability_bands": {"strong": 70, "moderate": 50},
+  "candidate": {"seed_level": "HIGH", "merge_gap_segments": 1, "extend_segments": 3, "min_length_m": 500, "max_length_m": 2000, "ramp_margin_m": 150, "max_candidates": 3},
+  "confidence_weights": {"coverage": 0.35, "history": 0.20, "freshness": 0.15, "model_validation": 0.15, "field_completeness": 0.15},
+  "required_fields": ["road_name", "road_type", "speed_limit", "lane_count", "road_width", "junction_count", "signal_count", "traffic_volume", "average_speed", "historical_congestion", "accident_count", "pedestrian_activity", "public_transport_activity"]
+}

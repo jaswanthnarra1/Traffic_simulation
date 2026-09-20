@@ -1,0 +1,50 @@
+{
+  "speed_15m": {
+    "rows_fit": 501836,
+    "calibration_mae": 0.4232
+  },
+  "flow_15m": {
+    "rows_fit": 501836,
+    "calibration_mae": 147.2009
+  },
+  "congestion_15m": {
+    "rows_fit": 501836,
+    "calibration_mae": 0.0097
+  },
+  "speed_30m": {
+    "rows_fit": 501400,
+    "calibration_mae": 0.4351
+  },
+  "flow_30m": {
+    "rows_fit": 501400,
+    "calibration_mae": 147.449
+  },
+  "congestion_30m": {
+    "rows_fit": 501400,
+    "calibration_mae": 0.0099
+  },
+  "speed_45m": {
+    "rows_fit": 500964,
+    "calibration_mae": 0.4385
+  },
+  "flow_45m": {
+    "rows_fit": 500964,
+    "calibration_mae": 147.5972
+  },
+  "congestion_45m": {
+    "rows_fit": 500964,
+    "calibration_mae": 0.01
+  },
+  "speed_60m": {
+    "rows_fit": 500528,
+    "calibration_mae": 0.441
+  },
+  "flow_60m": {
+    "rows_fit": 500528,
+    "calibration_mae": 147.4146
+  },
+  "congestion_60m": {
+    "rows_fit": 500528,
+    "calibration_mae": 0.01
+  }
+}

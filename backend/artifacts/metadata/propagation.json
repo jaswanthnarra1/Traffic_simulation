@@ -1,0 +1,27 @@
+{
+  "decay": {
+    "upstream": {
+      "1": 0.4768,
+      "2": 0.0014,
+      "3": 0.0011
+    },
+    "downstream": {
+      "1": 0.4761,
+      "2": 0.001,
+      "3": 0.001
+    }
+  },
+  "lag_min_per_hop": {
+    "upstream": 5.0,
+    "downstream": 5.0
+  },
+  "n_incidents": 49,
+  "samples": {
+    "upstream_1": 130,
+    "upstream_2": 356,
+    "upstream_3": 757,
+    "downstream_1": 128,
+    "downstream_2": 259,
+    "downstream_3": 432
+  }
+}

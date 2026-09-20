@@ -1,0 +1,294 @@
+[
+  {
+    "dataset": "traffic_train.csv",
+    "check": "segment_id exists in network.csv segment_id",
+    "original_count": 1883520,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "traffic_validation.csv",
+    "check": "segment_id exists in network.csv segment_id",
+    "original_count": 502272,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "forecast_targets_train.csv",
+    "check": "segment_id exists in network.csv segment_id",
+    "original_count": 366240,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "forecast_targets_validation.csv",
+    "check": "segment_id exists in network.csv segment_id",
+    "original_count": 481344,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "incidents_train.csv",
+    "check": "segment_id exists in network.csv segment_id",
+    "original_count": 49,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "incidents_validation.csv",
+    "check": "segment_id exists in network.csv segment_id",
+    "original_count": 11,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "roadworks_train.csv",
+    "check": "segment_id exists in network.csv segment_id",
+    "original_count": 8,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "roadworks_validation.csv",
+    "check": "segment_id exists in network.csv segment_id",
+    "original_count": 3,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "planning_candidates.csv",
+    "check": "target_segment exists in network.csv segment_id",
+    "original_count": 90,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "network.csv",
+    "check": "source_node exists in nodes.csv node_id",
+    "original_count": 436,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "network.csv",
+    "check": "target_node exists in nodes.csv node_id",
+    "original_count": 436,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "signal_plans.csv",
+    "check": "node_id exists in nodes.csv node_id",
+    "original_count": 89,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "turn_restrictions.csv",
+    "check": "node_id exists in nodes.csv node_id",
+    "original_count": 61,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "od_demand_profiles.csv",
+    "check": "origin_node exists in nodes.csv node_id",
+    "original_count": 1500,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "od_demand_profiles.csv",
+    "check": "destination_node exists in nodes.csv node_id",
+    "original_count": 1500,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "network.csv",
+    "check": "signal_id exists in signal_plans.csv (non-null only)",
+    "original_count": 436,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "nodes.csv",
+    "check": "lat/lon within India bounding box",
+    "original_count": 120,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "incidents_train.csv",
+    "check": "end_time >= start_time",
+    "original_count": 49,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "incidents_validation.csv",
+    "check": "end_time >= start_time",
+    "original_count": 11,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "roadworks_train.csv",
+    "check": "end_time >= start_time",
+    "original_count": 8,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "roadworks_validation.csv",
+    "check": "end_time >= start_time",
+    "original_count": 3,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "scenario_examples.csv",
+    "check": "end_time >= start_time",
+    "original_count": 30,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "traffic_train.csv",
+    "check": "negative speed/flow/occupancy/queue",
+    "original_count": 1883520,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "traffic_train.csv",
+    "check": "occupancy_pct > 100",
+    "original_count": 1883520,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "traffic_train.csv",
+    "check": "speed_kmh > 1.5x segment free_flow_speed_kmh",
+    "original_count": 1883520,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "traffic_validation.csv",
+    "check": "negative speed/flow/occupancy/queue",
+    "original_count": 502272,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "traffic_validation.csv",
+    "check": "occupancy_pct > 100",
+    "original_count": 502272,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "traffic_validation.csv",
+    "check": "speed_kmh > 1.5x segment free_flow_speed_kmh",
+    "original_count": 502272,
+    "affected_count": 0,
+    "reason": "none",
+    "transformation": "n/a"
+  },
+  {
+    "dataset": "incidents_train.csv",
+    "check": "distinct values of incident_type",
+    "original_count": 5,
+    "affected_count": 0,
+    "reason": "informational only",
+    "transformation": "n/a",
+    "distinct_values": [
+      "accident_like",
+      "demand_surge",
+      "lane_blockage",
+      "road_closure",
+      "stalled_vehicle"
+    ]
+  },
+  {
+    "dataset": "incidents_validation.csv",
+    "check": "distinct values of incident_type",
+    "original_count": 3,
+    "affected_count": 0,
+    "reason": "informational only",
+    "transformation": "n/a",
+    "distinct_values": [
+      "accident_like",
+      "lane_blockage",
+      "stalled_vehicle"
+    ]
+  },
+  {
+    "dataset": "network.csv",
+    "check": "distinct values of road_class",
+    "original_count": 2,
+    "affected_count": 0,
+    "reason": "informational only",
+    "transformation": "n/a",
+    "distinct_values": [
+      "arterial",
+      "collector"
+    ]
+  },
+  {
+    "dataset": "planning_candidates.csv",
+    "check": "distinct values of intervention_type",
+    "original_count": 5,
+    "affected_count": 0,
+    "reason": "informational only",
+    "transformation": "n/a",
+    "distinct_values": [
+      "capacity_upgrade",
+      "connector",
+      "lane_addition",
+      "signal_retiming",
+      "turn_lane"
+    ]
+  },
+  {
+    "dataset": "planning_candidates.csv",
+    "check": "distinct values of feasibility_band",
+    "original_count": 3,
+    "affected_count": 0,
+    "reason": "informational only",
+    "transformation": "n/a",
+    "distinct_values": [
+      "high",
+      "low",
+      "medium"
+    ]
+  }
+]

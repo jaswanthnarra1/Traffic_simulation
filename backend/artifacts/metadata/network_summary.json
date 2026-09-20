@@ -1,0 +1,13 @@
+{
+  "nodes": 120,
+  "segments": 436,
+  "strongly_connected": true,
+  "out_degree_distribution": {
+    "2": 4,
+    "3": 36,
+    "4": 80
+  },
+  "turn_restrictions": 61,
+  "legal_turns_peak": 1559,
+  "legal_turns_offpeak": 1582
+}

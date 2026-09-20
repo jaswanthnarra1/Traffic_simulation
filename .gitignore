@@ -1,0 +1,26 @@
+# Large data artifacts — reproducible from backend/scripts/*.py against the
+# organizer-provided dataset; never commit these (500MB+ combined).
+backend/data/raw/
+backend/data/processed/
+backend/data/db/
+backend/data/features/
+
+# Model binaries (21 MB) are reproducible with scripts/train_models.py.
+# Metrics and metadata stay tracked: they back every number in the reports.
+backend/artifacts/models/
+
+# Keep small, human-readable outputs (profiles/reports) tracked:
+!backend/data/metadata/
+!backend/data/validated/
+
+# Vendored reference repo with its own .git — not part of this project
+skills/
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+frontend/dist/
+.env
+.env.local

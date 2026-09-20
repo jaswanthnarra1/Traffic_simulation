@@ -1,0 +1,59 @@
+{
+  "reference": "network.structural_bottleneck (organizer flag) \u2014 used as a BENCHMARK, not ground truth for the UI",
+  "method": "peak/off-peak p99 throughput amplification, robust z <= -2.5",
+  "threshold_z": -2.5,
+  "threshold_fixed_a_priori": true,
+  "precision": 1.0,
+  "recall": 0.125,
+  "f1": 0.2222222222222222,
+  "true_positives": 2,
+  "false_positives": 0,
+  "false_negatives": 14,
+  "n_detected": 2,
+  "n_reference": 16,
+  "segments_recovered": [
+    "R0161",
+    "R0206"
+  ],
+  "ranking_auc": 0.9683035714285714,
+  "reference_in_top_16": 13,
+  "sensitivity_by_threshold_label_informed": {
+    "-1.5": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571,
+      "true_positives": 12,
+      "false_positives": 0,
+      "false_negatives": 4,
+      "n_flagged": 12
+    },
+    "-2.0": {
+      "precision": 1.0,
+      "recall": 0.375,
+      "f1": 0.5454545454545454,
+      "true_positives": 6,
+      "false_positives": 0,
+      "false_negatives": 10,
+      "n_flagged": 6
+    },
+    "-2.5": {
+      "precision": 1.0,
+      "recall": 0.125,
+      "f1": 0.2222222222222222,
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 14,
+      "n_flagged": 2
+    },
+    "-3.0": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 16,
+      "n_flagged": 0
+    }
+  },
+  "note": "Sensitivity table uses the reference labels and is reported for transparency only; the runtime threshold was not changed after seeing it."
+}

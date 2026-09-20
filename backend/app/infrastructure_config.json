@@ -1,0 +1,21 @@
+{
+  "_comment": "Assumptions of the SIMULATED infrastructure evaluation. Every number here is a demo assumption, not an engineering or government figure. Override with INFRASTRUCTURE_CONFIG_PATH.",
+  "interventions": {
+    "flyover":             {"label": "Flyover / grade separator", "capacity_gain": 0.35, "signal_removal": 0.80, "demand_shift": 0.0, "land_need": 0.35, "base_construction": 70, "difficulty_sensitivity": 25, "cost_per_km_cr": 120},
+    "road_extension":      {"label": "Road extension",            "capacity_gain": 0.28, "signal_removal": 0.0,  "demand_shift": 0.0, "land_need": 1.0,  "base_construction": 80, "difficulty_sensitivity": 15, "cost_per_km_cr": 45, "length_factor": 0.7},
+    "road_widening":       {"label": "Road widening (+1 lane)",   "capacity_gain": null, "max_capacity_gain": 0.5, "signal_removal": 0.0, "demand_shift": 0.0, "land_need": 0.8, "base_construction": 78, "difficulty_sensitivity": 15, "cost_per_km_cr": 35},
+    "junction_redesign":   {"label": "Junction redesign",         "capacity_gain": 0.10, "signal_removal": 0.25, "demand_shift": 0.0, "land_need": 0.3,  "base_construction": 85, "difficulty_sensitivity": 10, "cost_per_junction_cr": 8, "max_junctions": 6},
+    "signal_optimization": {"label": "Signal optimization",       "capacity_gain": 0.05, "signal_removal": 0.20, "demand_shift": 0.0, "land_need": 0.0,  "base_construction": 95, "difficulty_sensitivity": 2,  "cost_per_signal_cr": 0.5},
+    "traffic_diversion":   {"label": "Traffic diversion",         "capacity_gain": 0.0,  "signal_removal": 0.0,  "demand_shift": 0.10, "land_need": 0.0, "base_construction": 90, "difficulty_sensitivity": 0,  "fixed_cost_cr": 1}
+  },
+  "score_weights": {"traffic_impact": 0.35, "land_feasibility": 0.20, "construction_feasibility": 0.15, "cost_efficiency": 0.15, "long_term_impact": 0.15},
+  "recommend": {"min_overall": 45, "min_traffic_impact": 5},
+  "simulation": {"horizon_demand_growth_pct": 20, "emission_delay_elasticity": 0.5, "max_signal_share_of_time": 0.5},
+  "land": {
+    "availability_pct": [55, 90], "government_share_of_available": [0.60, 0.85], "private_impact_share_of_rest": [0.50, 0.90], "structures_per_km": [4, 10],
+    "row_delta_pct": [-5, 10], "construction_difficulty": [0.1, 0.6], "utility_conflict": ["Low", "Low", "Medium", "High"], "environmental": ["Requires assessment", "Low", "Medium"],
+    "confidence_pct": 65
+  },
+  "infrastructure_confidence_pct": 60,
+  "confidence_weights": {"traffic": 0.35, "road_network": 0.20, "land": 0.25, "infrastructure": 0.20}
+}
