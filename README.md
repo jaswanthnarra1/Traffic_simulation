@@ -6,6 +6,12 @@
 
 NeuraX Hackathon 3.0 · Domain 1 (AI in Smart Cities) · *Urban Traffic Flow & Incident Intelligence*
 
+Team Members:
+Narra Jaswanth
+Nagineni Pravalika
+Darakatla avanthi
+Devarakonda sucharitha
+
 FlowSense AI is a decision-support system for a Hyderabad-area urban road network. It answers, from data available at the moment of the question:
 
 **what is happening now → what caused it → what happens next → where it spreads → what we can do → what happens if we do it → which option simulates better → why to trust it.**
