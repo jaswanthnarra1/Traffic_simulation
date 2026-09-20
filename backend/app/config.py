@@ -36,6 +36,9 @@ STEP_MIN = 5
 SLOTS_PER_DAY = 288
 TRAIN_START, TRAIN_END = "2026-01-01 00:00:00", "2026-01-15 23:55:00"
 VAL_START, VAL_END = "2026-01-16 00:00:00", "2026-01-19 23:55:00"
+# Organizer hidden test input (unlabelled, deliberately noisy), present only after scripts/import_test_data.py.
+# Analysis-only: nothing is ever fitted on it — full_panel() stops at VAL_END.
+TEST_START, TEST_END = "2026-01-20 00:00:00", "2026-01-27 23:55:00"
 FIT_END = "2026-01-12 23:55:00"          # forecast models fit on days 1-12 ...
 CALIB_START = "2026-01-13 00:00:00"      # ... residual bands from days 13-15 [DESIGN]
 DEMO_TIME = os.getenv("DEMO_TIME", "2026-01-16 13:30:00")  # validation period (held out) [DESIGN]

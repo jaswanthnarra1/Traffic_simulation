@@ -12,7 +12,8 @@ HISTORY_SLOTS = 300  # >= 1 day + 1 hour: enough for the 'same slot yesterday' a
 
 @lru_cache(maxsize=1)
 def _panel():
-    return data.full_panel()
+    # runtime_panel, not full_panel: analysis may run over the hidden test input, fitting never does.
+    return data.runtime_panel()
 
 
 def window(t) -> data.Panel:

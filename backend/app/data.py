@@ -33,10 +33,21 @@ def table(name: str) -> pd.DataFrame:
     """Small static tables, cached. Name is checked against a whitelist (no SQL from callers)."""
     allowed = {"network", "nodes", "signal_plans", "turn_restrictions", "od_demand_profiles", "planning_candidates",
                "incidents_train", "incidents_validation", "roadworks_train", "roadworks_validation",
-               "scenario_examples", "context_train", "context_validation"}
+               "scenario_examples", "context_train", "context_validation",
+               "context_test", "roadworks_test", "evaluation_windows"}   # hidden test input (optional)
     if name not in allowed:
         raise ValueError(f"unknown table {name}")
     return q(f"SELECT * FROM {name}")
+
+
+@lru_cache(maxsize=1)
+def has_test() -> bool:
+    """True once the organizer's hidden test input is imported (scripts/import_test_data.py).
+
+    It is unlabelled analysis-only data: it extends the observable time range, but full_panel() — the input to every
+    fit and to evaluation — still stops at VAL_END, so no model can be trained or scored on it.
+    """
+    return not q("SELECT 1 FROM duckdb_tables() WHERE table_name = 'traffic_test' LIMIT 1").empty
 
 
 def network() -> pd.DataFrame:
@@ -44,11 +55,13 @@ def network() -> pd.DataFrame:
 
 
 def context() -> pd.DataFrame:
-    return pd.concat([table("context_train"), table("context_validation")], ignore_index=True).set_index("timestamp")
+    parts = [table("context_train"), table("context_validation")] + ([table("context_test")] if has_test() else [])
+    return pd.concat(parts, ignore_index=True).set_index("timestamp")
 
 
 def roadworks() -> pd.DataFrame:
-    return pd.concat([table("roadworks_train"), table("roadworks_validation")], ignore_index=True)
+    parts = [table("roadworks_train"), table("roadworks_validation")] + ([table("roadworks_test")] if has_test() else [])
+    return pd.concat(parts, ignore_index=True)
 
 
 def incidents(split: str) -> pd.DataFrame:
@@ -56,16 +69,21 @@ def incidents(split: str) -> pd.DataFrame:
 
 
 def data_range():
-    return pd.Timestamp(C.TRAIN_START), pd.Timestamp(C.VAL_END)
+    """Observable span. Extends across the hidden test input once it is imported."""
+    return pd.Timestamp(C.TRAIN_START), pd.Timestamp(C.TEST_END if has_test() else C.VAL_END)
 
 
 def load_traffic(start, end) -> pd.DataFrame:
-    """Long-format traffic rows in [start, end] across train+validation (both are past observations)."""
+    """Long-format traffic rows in [start, end] across every observed split (all are past observations).
+
+    The splits are disjoint in time, so the union is an ordinary concatenation: train (Jan 1-15), validation
+    (Jan 16-19) and, when imported, the hidden test input (Jan 20-27).
+    """
     cols = "timestamp, segment_id, " + ", ".join(VALUE_COLS) + ", sensor_quality"
-    sql = (f"SELECT {cols} FROM traffic_train WHERE timestamp BETWEEN ? AND ? "
-           f"UNION ALL SELECT {cols} FROM traffic_validation WHERE timestamp BETWEEN ? AND ?")
+    tables = ["traffic_train", "traffic_validation"] + (["traffic_test"] if has_test() else [])
+    sql = " UNION ALL ".join(f"SELECT {cols} FROM {t} WHERE timestamp BETWEEN ? AND ?" for t in tables)
     s, e = str(pd.Timestamp(start)), str(pd.Timestamp(end))
-    return q(sql, [s, e, s, e])
+    return q(sql, [s, e] * len(tables))
 
 
 @dataclass
@@ -148,17 +166,36 @@ def load_panel(start, end) -> Panel:
     return sanitize(load_traffic(start, end), start, end)
 
 
-def full_panel(rebuild: bool = False) -> Panel:
-    """Sanitized train+validation grid, cached as .npz (it is the input to training, evaluation and robustness)."""
-    path = C.FEATURE_CACHE / "panel_full.npz"
+def _cached_panel(name: str, start, end, rebuild: bool = False) -> Panel:
+    path = C.FEATURE_CACHE / name
     if path.exists() and not rebuild:
         z = np.load(path, allow_pickle=True)
         return Panel(list(z["segs"]), pd.DatetimeIndex(z["times"]), {c: z[c] for c in VALUE_COLS}, z["valid"],
                      dict(z["report"].item()))
-    p = load_panel(C.TRAIN_START, C.VAL_END)
+    p = load_panel(start, end)
     path.parent.mkdir(parents=True, exist_ok=True)
     np.savez(path, segs=np.array(p.segs), times=p.times.values, valid=p.valid, report=np.array(p.report), **p.v)
     return p
+
+
+def full_panel(rebuild: bool = False) -> Panel:
+    """Sanitized train+validation grid (the input to training, evaluation and robustness).
+
+    Deliberately stops at VAL_END: this is the FITTING boundary. The hidden test input must never reach a fit,
+    so runtime analysis uses runtime_panel() instead.
+    """
+    return _cached_panel("panel_full.npz", C.TRAIN_START, C.VAL_END, rebuild)
+
+
+def runtime_panel(rebuild: bool = False) -> Panel:
+    """Sanitized grid over everything observable, including the hidden test input once imported.
+
+    This is what live analysis (engine/dashboard/rider portal/corridor) reads. It is never used to fit anything.
+    Without the test input it is identical to full_panel(), so no second cache is written.
+    """
+    if not has_test():
+        return full_panel(rebuild)
+    return _cached_panel("panel_runtime.npz", C.TRAIN_START, C.TEST_END, rebuild)
 
 
 def slice_panel(p: Panel, start, end) -> Panel:

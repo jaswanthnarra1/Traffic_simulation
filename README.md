@@ -62,7 +62,7 @@ Headline measured results, on held-out validation unless stated (full tables in 
 | Charts | Recharts 3 | Forecast bands, metric comparisons |
 | Icons | Lucide | One consistent icon family |
 | Authentication | Built-in: FastAPI + HMAC-signed HttpOnly session cookie (Python standard library) | Closed demo with one account: no auth provider, no new dependency, token never readable by page scripts |
-| Testing | pytest 9 (109 tests), Vitest 5 + Testing Library (68 tests) | Leakage, validity, simulation, API, authentication and UI logic |
+| Testing | pytest 9 (116 tests), Vitest 5 + Testing Library (68 tests) | Leakage, validity, simulation, API, authentication and UI logic |
 | Packaging | Docker + docker-compose (nginx serves the UI and proxies `/api`) | Reproducible deployment; data mounted, not baked in |
 
 **External services: none.** No LLM, map, weather, traffic, database, auth provider or storage API. Everything runs on one machine from the organizer dataset.
@@ -184,6 +184,29 @@ python scripts/run_robustness.py       # -> robustness_metrics.json + docs/ROBUS
 
 Every script is idempotent. `validate_data.py` (without `--refresh-checksums`) exits non-zero if any raw file changed.
 
+### Hidden test input (optional)
+
+The organizer's `NEURAX_SMART_CITIES_TESTING_NOISY_V2` is 8 unlabelled, deliberately noisy days (Jan 20–27) on the *same* 436-segment network, plus `evaluation_windows.csv` with 36 judge scenarios.
+
+```bash
+python scripts/import_test_data.py "<path to NEURAX_SMART_CITIES_TESTING_NOISY_V2>"
+```
+
+It is **additive** — the training and validation tables are untouched, because the test input carries no labels (no `incidents_*`, no `forecast_targets_*`) and every shipped model was fitted on the training split. The import refuses to run if `network.csv`/`nodes.csv` differ from the graph the models were fitted on.
+
+Once imported, the observable range extends to Jan 27 and the whole app (dashboard, incidents, forecast, propagation, corridor, rider portal) analyses it — pick any time in that range with the header time control.
+
+**Leakage stays safe by construction.** Two panels, one boundary:
+
+| Panel | Span | Used by |
+|---|---|---|
+| `data.full_panel()` | Jan 1 – **Jan 19** | training, evaluation, robustness |
+| `data.runtime_panel()` | Jan 1 – Jan 27 | runtime analysis only |
+
+Nothing is ever fitted or scored on the test period; `tests/test_hidden_test_split.py` asserts that boundary and skips when the split is absent.
+
+**Measured on the hidden test input:** the sanitizer absorbed 1,822 negative speeds, 1,373 negative flows, 25,483 nulls, 2,996 impossible occupancy readings and 8,196 duplicate rows; mean data quality drops to ~86% (vs 100% on clean training data). The detector fires in **20 of the 36 scenario windows** — e.g. SC_014 flags R0139 as CRITICAL at 2026-01-23 20:45 with score 0.994 and 5 neighbours at risk. The other 16 are *not* necessarily misses: the organizer README warns that not every anomaly is a real incident, and the ground truth (`scenario_ground_truth.csv`, `intervention_reference.csv`) is withheld — so **no accuracy number can honestly be claimed on this split**.
+
 ### Run
 
 ```bash
@@ -302,7 +325,7 @@ For real multi-user use, add per-user accounts with hashed passwords, a shared s
 ## Testing
 
 ```bash
-cd backend && python -m pytest -q          # 109 tests (incl. 14 authentication, 34 rider portal, 18 corridor, 15 infrastructure)
+cd backend && python -m pytest -q          # 116 tests (incl. 14 auth, 34 rider, 18 corridor, 15 infrastructure, 7 hidden-test)
 cd frontend && npm test                     # 68 tests (vitest, incl. 9 login, 10 map, 28 rider portal, 13 flyover/infrastructure)
 cd frontend && npm run build                # type-check + production build
 ```

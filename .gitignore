@@ -1,6 +1,7 @@
 # Large data artifacts — reproducible from backend/scripts/*.py against the
 # organizer-provided dataset; never commit these (500MB+ combined).
 backend/data/raw/
+backend/data/raw_test/
 backend/data/processed/
 backend/data/db/
 backend/data/features/
